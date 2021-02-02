@@ -1,0 +1,32 @@
+http://push2ex.eastmoney.com/getStockFenShi?pagesize=144&ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wzfscj&cb=jQuery112303757051884710463_1597157301810&pageindex=1&id=0007791&sort=1&ft=1&code={1}&market=1&_=1597157301811
+http://push2ex.eastmoney.com/getStockFenShi?pagesize=144&ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wzfscj&cb=jQuery112303757051884710463_1597157301810&pageindex=1&id=0007792&sort=1&ft=1&code=000779&market=0&_=1597157301811
+http://push2ex.eastmoney.com/getStockFenShi?pagesize=144&ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wzfscj&cb=jQuery112304529595564618325_1597678626011&pageindex=0&id=0007792&sort=1&ft=1&code=000779&market=0&_=1597678626012
+http://push2ex.eastmoney.com/getStockFenShi?pagesize=144&ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wzfscj&cb=jQuery112307786138580588886_1597678742367&pageindex=0&id=0007792&sort=1&ft=1&code=000779&market=0&_=1597678742371
+http://push2ex.eastmoney.com/getStockFenShi?pagesize=144&ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wzfscj&cb=jQuery112307256863191669054_1597678912351&pageindex=0&id=0008872&sort=1&ft=1&code=000887&market=0&_=1597678912352
+http://push2ex.eastmoney.com/getStockFenShi?pagesize=144&ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wzfscj&cb=jQuery112309779755625784339_1597678984425&pageindex=0&id=0008692&sort=1&ft=1&code=000869&market=0&_=1597678984426
+http://push2ex.eastmoney.com/getStockFenShi?pagesize=144&ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wzfscj&cb=jQuery1123048763462635527444_1597679134169&pageindex=0&id=6884661&sort=1&ft=1&code=688466&market=1&_=1597679134170
+http://push2ex.eastmoney.com/getStockFenShi?pagesize=144&ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wzfscj&cb=jQuery1123025986091576798787_1597679439113&pageindex=0&id=3005852&sort=1&ft=1&code=300585&market=0&_=1597679439114
+
+板块：
+http://75.push2.eastmoney.com/api/qt/clist/get?cb=jQuery1124012900413016776402_1597722475358&pn=2&pz=20&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f3&fs=m:90+t:2+f:!50&fields=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,f24,f25,f26,f22,f33,f11,f62,f128,f136,f115,f152,f124,f107,f104,f105,f140,f141,f207,f208,f209,f222&_=1597722475367
+[{"f1":2,"f2":14432.69,"f3":0.8,"f4":114.87,"f5":13297250,"f6":12643757056.0,"f7":0.94,"f8":1.31,"f9":44.12,"f10":1.24,"f11":0.21,"f12":"BK0457","f13":90,"f14":"输配电气",
+农牧：
+http://13.push2.eastmoney.com/api/qt/clist/get?cb=jQuery112403888074806075892_1597721888045&pn=1&pz=20&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f3&fs=b:BK0433+f:!50&fields=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,f24,f25,f22,f11,f62,f128,f136,f115,f152,f45&_=1597721888046
+http://38.push2.eastmoney.com/api/qt/clist/get?cb=jQuery1124017514478888383866_1597722046136&pn=1&pz=20&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f3&fs=b:BK0481+f:!50&fields=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,f24,f25,f22,f11,f62,f128,f136,f115,f152,f45&_=1597722046137
+http://38.push2.eastmoney.com/api/qt/clist/get?cb=jQuery1124017514478888383866_1597722046136&pn=1&pz=20&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f3&fs=b:BK0433+f:!50&fields=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,f24,f25,f22,f11,f62,f128,f136,f115,f152,f45&_=1597722046137
+
+
+http://65.push2his.eastmoney.com/api/qt/stock/kline/get?cb=jQuery112406494111725972946_1597739727630&secid=1.603877&ut=fa5fd1943c7b386f172d6893dbfba10b&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58&klt=101&fqt=0&beg=0&end=20500101&smplmt=460&lmt=1000000&_=1597739727654
+
+资料：
+http://f10.eastmoney.com/CompanySurvey/CompanySurveyAjax?code=SH600829
+http://f10.eastmoney.com/CompanySurvey/CompanySurveyAjax?code=SZ002488
+
+SET SQL_SAFE_UPDATES=0;
+update stockdb.stock_history_trade1  h
+left join 
+(select stock_id,发行量 from  stockdb.stock_informations where 发行量!='') i
+on h.stock_id = i.stock_id 
+set h.fxl =i.发行量,
+h.turnover_rate = trade_amount /h.fxl
+where h.trade_amount !='-';

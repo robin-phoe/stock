@@ -1,0 +1,1138 @@
+2021-02-02 09:18:35,373-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:35,472-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600004&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4745
+2021-02-02 09:18:35,474-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:35,562-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600000 HTTP/1.1" 200 118
+2021-02-02 09:18:35,618- INFO: 存储完成:id:000026,name:飞亚达
+2021-02-02 09:18:35,619-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:35,707-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000411&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4714
+202021-02-02 09:18:35,710-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:802021-02-02 09:18:35,797-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000411 HTTP/1.1" 200 114
+2021-02-02 09:18:35,854- INFO: 存储完成:id:000411,name:英特集团
+2021-02-02 09:18:35,856-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+202021-02-02 09:18:35,961-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000007&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4307
+2021-02-02 09:18:35,963-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80202021-02-02 09:18:36,048-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000007 HTTP/1.1" 200 111202021-02-02 09:18:36,087- INFO: 存储完成:id:000007,name:全新好
+2021-02-02 09:18:36,089-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:36,166-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000009&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4442
+2021-02-02 09:18:36,168-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:36,255-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000009 HTTP/1.1" 200 116
+2021-02-02 09:18:36,304- INFO: 存储完成:id:000009,name:中国宝安
+2021-02-02 09:18:36,305-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:8022021-02-02 09:18:36,388-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000014&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4326
+2021-02-02 09:18:36,389-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:18:36,468-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000014 HTTP/1.1" 200 1142202021-02-02 09:18:36,523- INFO: 存储完成:id:600048,name:保利地产202021-02-02 09:18:36,524-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:82202021-02-02 09:18:36,706-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600053&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4603
+2021-02-02 09:18:36,709-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:82202021-02-02 09:18:36,796-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600053 HTTP/1.1" 200 114
+2021-02-02 09:18:36,828- INFO: 存储完成:id:600053,name:九鼎投资
+2021-02-02 09:18:36,829-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:22022021-02-02 09:18:36,912-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600055&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4566
+2021-02-02 09:18:36,914-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:20212021-02-02 09:18:36,994-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600055 HTTP/1.1" 200 120212021-02-02 09:18:37,030- INFO: 存储完成:id:600055,name:万东医疗
+2021-02-02 09:18:37,032-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:20212021-02-02 09:18:37,111-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600056&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4709
+2021-02-02 09:18:37,113-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:20212021-02-02 09:18:37,198-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600056 HTTP/1.1" 200 120212021-02-02 09:18:37,241- INFO: 存储完成:id:600056,name:中国医药
+2021-02-02 09:18:37,242-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:20212021-02-02 09:18:37,332-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600062&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4609
+2021-02-02 09:18:37,334-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:20212021-02-02 09:18:37,415-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600062 HTTP/1.1" 200 120212021-02-02 09:18:37,463- INFO: 存储完成:id:600062,name:华润双鹤
+2021-02-02 09:18:37,464-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:20212021-02-02 09:18:37,541-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600063&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4386
+2021-02-02 09:18:37,542-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:2021-02-02 09:18:37,624-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000785 HTTP/1.1" 200 115
+2021-02-02 09:18:37,677- INFO: 存储完成:id:000785,name:居然之家
+2021-02-02 09:18:37,678-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:802020212021-02-02 09:18:37,757-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600070&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4506
+2021-02-02 09:18:37,759-DEBUG: Starting new HTTP connection (1): push2.eastmoney.co2020212021-02-02 09:18:37,844-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600070 HTTP/1.1" 2002020212021-02-02 09:18:37,890- INFO: 存储完成:id:600070,name:浙江富润
+2021-02-02 09:18:37,891-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.co2020202021-02-02 09:18:37,981-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600077&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4296
+2021-02-02 09:18:37,983-DEBUG: Starting new HTTP connection (1): push2.eastmoney.co2020202021-02-02 09:18:38,065-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600077 HTTP/1.1" 2002020202021-02-02 09:18:38,108- INFO: 存储完成:id:600077,name:宋都股份
+2021-02-02 09:18:38,110-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.co202021-02-02 09:18:38,186-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000828&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4401
+2021-02-02 09:18:38,188-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80202021-02-02 09:18:38,272-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000828 HTTP/1.1" 200 116202021-02-02 09:18:38,317- INFO: 存储完成:id:000828,name:东莞控股
+2021-02-02 09:18:38,319-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:8020202021-02-02 09:18:38,465-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600082&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4230
+2021-02-02 09:18:38,467-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:20202021-02-02 09:18:38,545-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600082 HTTP/1.1" 200 114
+2021-02-02 09:18:38,585- INFO: 存储完成:id:600082,name:海泰发展
+2021-02-02 09:18:38,587-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80202021-02-02 09:18:38,674-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600093&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4364
+2021-02-02 09:18:38,676-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80202021-02-02 09:18:38,761-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600093 HTTP/1.1" 200 116
+2021-02-02 09:18:38,802- INFO: 存储完成:id:600093,name:易见股份
+2021-02-02 09:18:38,803-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:20202021-02-02 09:18:38,884-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600095&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4761
+2021-02-02 09:18:38,886-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:20212021-02-02 09:18:38,970-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600095 HTTP/1.1" 200 115
+2021-02-02 09:18:39,038- INFO: 存储完成:id:600095,name:湘财股份
+2021-02-02 09:18:39,040-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:39,122-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600097&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4447
+2021-02-02 09:18:39,124-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:39,203-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600097 HTTP/1.1" 200 114
+2021-02-02 09:18:39,225- INFO: 存储完成:id:600097,name:开创国际
+2021-02-02 09:18:39,226-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80202021-02-02 09:18:39,305-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600107&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4341
+2021-02-02 09:18:39,308-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80202021-02-02 09:18:39,393-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600107 HTTP/1.1" 200 111
+2021-02-02 09:18:39,430- INFO: 存储完成:id:600107,name:美尔雅
+2021-02-02 09:18:39,432-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:39,519-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600110&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4531
+2021-02-02 09:18:39,521-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:39,681-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000301 HTTP/1.1" 200 116
+2021-02-02 09:18:39,712- INFO: 存储完成:id:000301,name:东方盛虹
+2021-02-02 09:18:39,714-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:39,792-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000402&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4283
+2021-02-02 09:18:39,793-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:39,873-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000402 HTTP/1.1" 200 115
+2021-02-02 09:18:39,907- INFO: 存储完成:id:000402,name:金 融 街
+2021-02-02 09:18:39,909-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:39,989-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000408&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4287
+2021-02-02 09:18:39,990-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:40,078-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000408 HTTP/1.1" 200 112
+2021-02-02 09:18:40,112- INFO: 存储完成:id:000408,name:*ST藏格
+2021-02-02 09:18:40,113-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:40,199-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000413&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4441
+2021-02-02 09:18:40,201-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:40,286-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000413 HTTP/1.1" 200 116
+2021-02-02 09:18:40,326- INFO: 存储完成:id:000413,name:东旭光电
+2021-02-02 09:18:40,328-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:40,406-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000415&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4358
+2021-02-02 09:18:40,409-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:40,489-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000415 HTTP/1.1" 200 116
+2021-02-02 09:18:40,550- INFO: 存储完成:id:000415,name:渤海租赁
+2021-02-02 09:18:40,552-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:40,629-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000416&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4315
+2021-02-02 09:18:40,631-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:40,709-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000416 HTTP/1.1" 200 114
+2021-02-02 09:18:40,746- INFO: 存储完成:id:000416,name:民生控股
+2021-02-02 09:18:40,748-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:40,826-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000419&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4248
+2021-02-02 09:18:40,828-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:40,908-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000419 HTTP/1.1" 200 114
+2021-02-02 09:18:40,941- INFO: 存储完成:id:000419,name:通程控股
+2021-02-02 09:18:40,942-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:41,020-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000503&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4490
+2021-02-02 09:18:41,021-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:41,100-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000503 HTTP/1.1" 200 114
+2021-02-02 09:18:41,130- INFO: 存储完成:id:000503,name:国新健康
+2021-02-02 09:18:41,132-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:41,219-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000514&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4223
+2021-02-02 09:18:41,220-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:41,303-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000514 HTTP/1.1" 200 113
+2021-02-02 09:18:41,332- INFO: 存储完成:id:000514,name:渝 开 发
+2021-02-02 09:18:41,334-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:8022021-02-02 09:18:41,427-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000517&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4364
+2021-02-02 09:18:41,430-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:82021-02-02 09:18:41,629-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600151 HTTP/1.1" 200 116
+2021-02-02 09:18:41,671- INFO: 存储完成:id:600151,name:航天机电
+2021-02-02 09:18:41,672-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:41,752-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600152&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4311
+2021-02-02 09:18:41,754-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:41,834-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600152 HTTP/1.1" 200 114
+2021-02-02 09:18:41,878- INFO: 存储完成:id:600152,name:维科技术
+2021-02-02 09:18:41,879-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:41,955-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600153&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4375
+2021-02-02 09:18:41,956-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:42,038-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600153 HTTP/1.1" 200 116
+2021-02-02 09:18:42,082- INFO: 存储完成:id:600153,name:建发股份
+2021-02-02 09:18:42,084-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:42,197-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600158&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4765
+2021-02-02 09:18:42,199-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:42,285-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600158 HTTP/1.1" 200 114
+2021-02-02 09:18:42,325- INFO: 存储完成:id:600158,name:中体产业
+2021-02-02 09:18:42,326-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:42,415-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600166&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4523
+2021-02-02 09:18:42,417-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:42,503-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600166 HTTP/1.1" 200 116
+2021-02-02 09:18:42,544- INFO: 存储完成:id:600166,name:福田汽车
+2021-02-02 09:18:42,545-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:42,623-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600167&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4633
+2021-02-02 09:18:42,625-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:42,710-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600167 HTTP/1.1" 200 116
+2021-02-02 09:18:42,756- INFO: 存储完成:id:600167,name:联美控股
+2021-02-02 09:18:42,757-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:42,832-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600172&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4395
+2021-02-02 09:18:42,834-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:42,915-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600172 HTTP/1.1" 200 116
+2021-02-02 09:18:42,962- INFO: 存储完成:id:600172,name:黄河旋风
+2021-02-02 09:18:42,963-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:43,050-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600177&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4405
+2021-02-02 09:18:43,052-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:43,130-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600177 HTTP/1.1" 200 113
+2021-02-02 09:18:43,170- INFO: 存储完成:id:600177,name:雅戈尔
+2021-02-02 09:18:43,171-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:43,257-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600180&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4241
+2021-02-02 09:18:43,258-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+20212021-02-02 09:18:43,376-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600171 HTTP/1.1" 200 120212021-02-02 09:18:43,410- INFO: 存储完成:id:600171,name:上海贝岭
+2021-02-02 09:18:43,411-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.co2021-02021-02-02 09:18:43,497-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600175&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 146
+2021-02-02 09:18:43,501-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com20212021-02-02 09:18:43,704-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000783 HTTP/1.1" 200 116
+2021-02-02 09:18:43,742- INFO: 存储完成:id:000783,name:长江证券
+2021-02-02 09:18:43,742-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:43,829-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000811&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4377
+2021-02-02 09:18:43,832-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:43,919-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000811 HTTP/1.1" 200 114
+2021-02-02 09:18:43,959- INFO: 存储完成:id:000811,name:冰轮环境
+2021-02-02 09:18:43,961-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:44,042-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000815&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4296
+2021-02-02 09:18:44,044-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:44,123-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000815 HTTP/1.1" 200 111
+2021-02-02 09:18:44,165- INFO: 存储完成:id:000815,name:美利云
+2021-02-02 09:18:44,167-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:44,243-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000823&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4654
+2021-02-02 09:18:44,246-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:44,324-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000823 HTTP/1.1" 200 114
+2021-02-02 09:18:44,369- INFO: 存储完成:id:000823,name:超声电子
+2021-02-02 09:18:44,370-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:44,447-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000833&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4260
+2021-02-02 09:18:44,449-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:44,528-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000833 HTTP/1.1" 200 114
+2021-02-02 09:18:44,571- INFO: 存储完成:id:000833,name:粤桂股份
+2021-02-02 09:18:44,572-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com2021-2021-02-02 09:18:44,649-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000851&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4398
+2021-02-02 09:18:44,651-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com2021-2021-02-02 09:18:44,737-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000851 HTTP/1.1" 200 114
+2021-02-02 09:18:44,779- INFO: 存储完成:id:000851,name:高鸿股份
+2021-02-02 09:18:44,781-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com2021-2021-02-02 09:18:44,868-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000881&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4435
+2021-02-02 09:18:44,870-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:44,956-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000881 HTTP/1.1" 200 114
+2021-02-02 09:18:45,002- INFO: 存储完成:id:000881,name:中广核技
+2021-02-02 09:18:45,004-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:45,117-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000890&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4237
+2021-02-02 09:18:45,119-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:45,199-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000890 HTTP/1.1" 200 111
+2021-02-02 09:18:45,244- INFO: 存储完成:id:000890,name:*ST胜尔
+2021-02-02 09:18:45,246-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:45,324-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000903&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4430
+2021-02-02 09:18:45,326-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:20212021-02-02 09:18:45,411-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000903 HTTP/1.1" 200 116
+2021-02-02 09:18:45,450- INFO: 存储完成:id:000903,name:云内动力
+2021-02-02 09:18:45,452-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:45,531-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000906&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4287
+2021-02-02 09:18:45,533-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com2021-2021-02-02 09:18:45,614-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000906 HTTP/1.1" 200 114
+2021-02-02 09:18:45,675- INFO: 存储完成:id:000906,name:浙商中拓
+2021-02-02 09:18:45,676-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:45,753-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000917&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4297
+2021-02-02 09:18:45,755-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:45,841-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000917 HTTP/1.1" 200 116
+2021-02-02 09:18:45,873- INFO: 存储完成:id:000917,name:电广传媒
+2021-02-02 09:18:45,874-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.2021-02-2021-02-02 09:18:45,952-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000919&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4286
+2021-02-02 09:18:45,954-DEBUG: Starting new HTTP connection (1): push2.eastmoney.2021-02-2021-02-02 09:18:46,039-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000919 HTTP/1.1" 200 114
+2021-02-02 09:18:46,073- INFO: 存储完成:id:000919,name:金陵药业
+2021-02-02 09:18:46,074-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.2021-02-2021-02-02 09:18:46,160-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000929&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4391
+2021-02-02 09:18:46,162-DEBUG: Starting new HTTP connection (1): push2.eastmoney.2021-02-2021-02-02 09:18:46,241-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000929 HTTP/1.1" 200 114
+2021-02-02 09:18:46,281- INFO: 存储完成:id:000929,name:兰州黄河
+2021-02-02 09:18:46,282-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.2021-02-2021-02-02 09:18:46,371-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000938&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4784
+2021-02-02 09:18:46,373-DEBUG: Starting new HTTP connection (1): push2.eastmoney.2021-02-02 09:18:46,620-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600261 HTTP/1.1" 200 116
+2021-02-02 09:18:46,652- INFO: 存储完成:id:600261,name:阳光照明
+2021-02-02 09:18:46,653-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:46,738-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600266&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4290
+2021-02-02 09:18:46,740-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:46,821-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600266 HTTP/1.1" 200 116
+2021-02-02 09:18:46,859- INFO: 存储完成:id:600266,name:城建发展
+2021-02-02 09:18:46,860-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:46,947-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600271&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4658
+2021-02-02 09:18:46,949-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:47,035-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600271 HTTP/1.1" 200 116
+2021-02-02 09:18:47,072- INFO: 存储完成:id:600271,name:航天信息
+2021-02-02 09:18:47,074-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:47,150-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600272&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4168
+2021-02-02 09:18:47,152-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:47,239-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600272 HTTP/1.1" 200 114
+2021-02-02 09:18:47,280- INFO: 存储完成:id:600272,name:开开实业
+2021-02-02 09:18:47,282-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:47,369-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600277&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4354
+2021-02-02 09:18:47,371-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:47,457-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600277 HTTP/1.1" 200 116
+2021-02-02 09:18:47,504- INFO: 存储完成:id:600277,name:亿利洁能
+2021-02-02 09:18:47,505-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:47,584-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600279&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4243
+2021-02-02 09:18:47,586-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:47,667-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600279 HTTP/1.1" 200 115
+2021-02-02 09:18:47,708- INFO: 存储完成:id:600279,name:重庆港九
+2021-02-02 09:18:47,710-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:47,794-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600280&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4258
+2021-02-02 09:18:47,796-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:47,881-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600280 HTTP/1.1" 200 113
+2021-02-02 09:18:47,927- INFO: 存储完成:id:600280,name:*ST中商
+2021-02-02 09:18:47,929-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:48,014-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600287&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4267
+2021-02-02 09:18:48,016-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:48,095-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600287 HTTP/1.1" 200 114
+2021-02-02 09:18:48,141- INFO: 存储完成:id:600287,name:江苏舜天
+2021-02-02 09:18:48,142-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:48,242-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600297&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4464
+2021-02-02 09:18:48,244-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:48,566-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600297 HTTP/1.1" 200 116
+2021-02-02 09:18:48,600- INFO: 存储完成:id:600297,name:广汇汽车
+2021-02-02 09:18:48,602-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:48,689-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600303&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4415
+2021-02-02 09:18:48,690-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:48,769-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600303 HTTP/1.1" 200 114
+2021-02-02 09:18:48,804- INFO: 存储完成:id:600303,name:曙光股份
+2021-02-02 09:18:48,805-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:48,893-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600309&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4902
+2021-02-02 09:18:48,895-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:48,976-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600309 HTTP/1.1" 200 116
+2021-02-02 09:18:49,013- INFO: 存储完成:id:600309,name:万华化学
+2021-02-02 09:18:49,015-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:49,090-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600312&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4319
+2021-02-02 09:18:49,092-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:49,173-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600312 HTTP/1.1" 200 116
+2021-02-02 09:18:49,216- INFO: 存储完成:id:600312,name:平高电气
+2021-02-02 09:18:49,217-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:49,295-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600316&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4812
+2021-02-02 09:18:49,297-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:49,383-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600316 HTTP/1.1" 200 114
+2021-02-02 09:18:49,430- INFO: 存储完成:id:600316,name:洪都航空
+2021-02-02 09:18:49,431-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:49,507-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600317&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 3652
+2021-02-02 09:18:49,509-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:49,588-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600317 HTTP/1.1" 200 113
+2021-02-02 09:18:49,620- INFO: 存储完成:id:600317,name:营口港
+2021-02-02 09:18:49,621-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:49,699-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600322&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4288
+2021-02-02 09:18:49,701-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:49,780-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600322 HTTP/1.1" 200 116
+2021-02-02 09:18:49,826- INFO: 存储完成:id:600322,name:天房发展
+2021-02-02 09:18:49,827-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:49,907-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600327&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4300
+2021-02-02 09:18:49,909-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:49,995-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600327 HTTP/1.1" 200 111
+2021-02-02 09:18:50,035- INFO: 存储完成:id:600327,name:大东方
+2021-02-02 09:18:50,037-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:50,122-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600337&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4342
+2021-02-02 09:18:50,124-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:50,209-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600337 HTTP/1.1" 200 116
+2021-02-02 09:18:50,250- INFO: 存储完成:id:600337,name:美克家居
+2021-02-02 09:18:50,252-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:50,332-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600346&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4796
+2021-02-02 09:18:50,334-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:50,412-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600346 HTTP/1.1" 200 116
+2021-02-02 09:18:50,456- INFO: 存储完成:id:600346,name:恒力石化
+2021-02-02 09:18:50,457-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:50,534-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600353&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4267
+2021-02-02 09:18:50,536-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:50,615-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600353 HTTP/1.1" 200 114
+2021-02-02 09:18:50,658- INFO: 存储完成:id:600353,name:旭光电子
+2021-02-02 09:18:50,659-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:50,747-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600354&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4302
+2021-02-02 09:18:50,749-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:50,836-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600354 HTTP/1.1" 200 111
+2021-02-02 09:18:50,910- INFO: 存储完成:id:600354,name:*ST敦种
+2021-02-02 09:18:50,912-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:50,996-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600363&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4746
+2021-02-02 09:18:50,999-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:51,085-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600363 HTTP/1.1" 200 114
+2021-02-02 09:18:51,133- INFO: 存储完成:id:600363,name:联创光电
+2021-02-02 09:18:51,135-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:51,212-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600376&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4278
+2021-02-02 09:18:51,213-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:51,300-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600376 HTTP/1.1" 200 116
+2021-02-02 09:18:51,340- INFO: 存储完成:id:600376,name:首开股份
+2021-02-02 09:18:51,341-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:51,420-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600378&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4628
+2021-02-02 09:18:51,422-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:51,506-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600378 HTTP/1.1" 200 114
+2021-02-02 09:18:51,550- INFO: 存储完成:id:600378,name:昊华科技
+2021-02-02 09:18:51,551-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:51,627-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600382&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4366
+2021-02-02 09:18:51,629-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:51,711-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600382 HTTP/1.1" 200 114
+2021-02-02 09:18:51,750- INFO: 存储完成:id:600382,name:广东明珠
+2021-02-02 09:18:51,751-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:51,841-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600383&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4765
+2021-02-02 09:18:51,843-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:51,930-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600383 HTTP/1.1" 200 116
+2021-02-02 09:18:51,970- INFO: 存储完成:id:600383,name:金地集团
+2021-02-02 09:18:51,971-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:52,049-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600385&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4092
+2021-02-02 09:18:52,050-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:52,129-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600385 HTTP/1.1" 200 110
+2021-02-02 09:18:52,169- INFO: 存储完成:id:600385,name:ST金泰
+2021-02-02 09:18:52,170-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:52,248-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600388&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4427
+2021-02-02 09:18:52,250-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:52,335-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600388 HTTP/1.1" 200 116
+2021-02-02 09:18:52,374- INFO: 存储完成:id:600388,name:龙净环保
+2021-02-02 09:18:52,376-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:52,463-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600396&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4347
+2021-02-02 09:18:52,465-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:52,580-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600396 HTTP/1.1" 200 116
+2021-02-02 09:18:52,618- INFO: 存储完成:id:600396,name:金山股份
+2021-02-02 09:18:52,621-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:52,703-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600406&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4763
+2021-02-02 09:18:52,704-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:52,791-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600406 HTTP/1.1" 200 116
+2021-02-02 09:18:52,830- INFO: 存储完成:id:600406,name:国电南瑞
+2021-02-02 09:18:52,832-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:52,912-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600423&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4149
+2021-02-02 09:18:52,914-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:52,992-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600423 HTTP/1.1" 200 110
+2021-02-02 09:18:53,028- INFO: 存储完成:id:600423,name:ST柳化
+2021-02-02 09:18:53,029-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:53,114-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600429&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4282
+2021-02-02 09:18:53,115-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:53,195-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600429 HTTP/1.1" 200 116
+2021-02-02 09:18:53,236- INFO: 存储完成:id:600429,name:三元股份
+2021-02-02 09:18:53,238-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:53,315-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600433&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4381
+2021-02-02 09:18:53,316-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:53,397-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600433 HTTP/1.1" 200 116
+2021-02-02 09:18:53,433- INFO: 存储完成:id:600433,name:冠豪高新
+2021-02-02 09:18:53,434-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:53,513-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600436&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 5038
+2021-02-02 09:18:53,515-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:53,602-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600436 HTTP/1.1" 200 111
+2021-02-02 09:18:53,636- INFO: 存储完成:id:600436,name:片仔癀
+2021-02-02 09:18:53,638-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:53,715-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600444&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4430
+2021-02-02 09:18:53,716-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:53,797-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600444 HTTP/1.1" 200 114
+2021-02-02 09:18:53,832- INFO: 存储完成:id:600444,name:国机通用
+2021-02-02 09:18:53,834-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:53,919-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600446&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4689
+2021-02-02 09:18:53,920-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:54,005-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600446 HTTP/1.1" 200 114
+2021-02-02 09:18:54,040- INFO: 存储完成:id:600446,name:金证股份
+2021-02-02 09:18:54,041-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:54,127-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600452&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4603
+2021-02-02 09:18:54,129-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:54,245-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600452 HTTP/1.1" 200 114
+2021-02-02 09:18:54,287- INFO: 存储完成:id:600452,name:涪陵电力
+2021-02-02 09:18:54,288-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:54,375-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600455&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4528
+2021-02-02 09:18:54,377-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:54,463-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600455 HTTP/1.1" 200 112
+2021-02-02 09:18:54,502- INFO: 存储完成:id:600455,name:博通股份
+2021-02-02 09:18:54,504-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:54,581-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600459&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4723
+2021-02-02 09:18:54,583-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:54,662-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600459 HTTP/1.1" 200 114
+2021-02-02 09:18:54,703- INFO: 存储完成:id:600459,name:贵研铂业
+2021-02-02 09:18:54,705-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:54,783-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600462&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4213
+2021-02-02 09:18:54,785-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:54,872-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600462 HTTP/1.1" 200 111
+2021-02-02 09:18:54,914- INFO: 存储完成:id:600462,name:*ST九有
+2021-02-02 09:18:54,915-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:54,993-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600469&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4297
+2021-02-02 09:18:54,994-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:55,316-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600469 HTTP/1.1" 200 114
+2021-02-02 09:18:55,355- INFO: 存储完成:id:600469,name:风神股份
+2021-02-02 09:18:55,356-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:55,435-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600470&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4276
+2021-02-02 09:18:55,437-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:55,523-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600470 HTTP/1.1" 200 111
+2021-02-02 09:18:55,566- INFO: 存储完成:id:600470,name:*ST六化
+2021-02-02 09:18:55,567-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:55,658-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600476&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4520
+2021-02-02 09:18:55,659-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:55,741-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600476 HTTP/1.1" 200 114
+2021-02-02 09:18:55,787- INFO: 存储完成:id:600476,name:湘邮科技
+2021-02-02 09:18:55,788-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:55,865-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600481&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4417
+2021-02-02 09:18:55,867-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:55,945-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600481 HTTP/1.1" 200 116
+2021-02-02 09:18:55,994- INFO: 存储完成:id:600481,name:双良节能
+2021-02-02 09:18:55,995-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:56,077-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600487&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4747
+2021-02-02 09:18:56,079-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:56,160-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600487 HTTP/1.1" 200 116
+2021-02-02 09:18:56,223- INFO: 存储完成:id:600487,name:亨通光电
+2021-02-02 09:18:56,225-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:56,307-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600493&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4267
+2021-02-02 09:18:56,309-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:56,395-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600493 HTTP/1.1" 200 114
+2021-02-02 09:18:56,440- INFO: 存储完成:id:600493,name:凤竹纺织
+2021-02-02 09:18:56,442-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:56,520-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600499&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4392
+2021-02-02 09:18:56,523-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:56,604-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600499 HTTP/1.1" 200 116
+2021-02-02 09:18:56,643- INFO: 存储完成:id:600499,name:科达制造
+2021-02-02 09:18:56,645-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:56,724-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600505&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4255
+2021-02-02 09:18:56,726-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:56,806-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600505 HTTP/1.1" 200 114
+2021-02-02 09:18:56,854- INFO: 存储完成:id:600505,name:西昌电力
+2021-02-02 09:18:56,855-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:56,931-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600512&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4353
+2021-02-02 09:18:56,932-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:57,019-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600512 HTTP/1.1" 200 116
+2021-02-02 09:18:57,053- INFO: 存储完成:id:600512,name:腾达建设
+2021-02-02 09:18:57,054-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:57,141-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600516&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4472
+2021-02-02 09:18:57,143-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:57,477-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600516 HTTP/1.1" 200 116
+2021-02-02 09:18:57,521- INFO: 存储完成:id:600516,name:方大炭素
+2021-02-02 09:18:57,522-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:57,600-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600520&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4278
+2021-02-02 09:18:57,601-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:57,687-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600520 HTTP/1.1" 200 114
+2021-02-02 09:18:57,729- INFO: 存储完成:id:600520,name:文一科技
+2021-02-02 09:18:57,730-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:57,852-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600522&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4767
+2021-02-02 09:18:57,854-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:57,934-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600522 HTTP/1.1" 200 116
+2021-02-02 09:18:57,970- INFO: 存储完成:id:600522,name:中天科技
+2021-02-02 09:18:57,971-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:58,059-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600533&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4296
+2021-02-02 09:18:58,061-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:58,139-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600533 HTTP/1.1" 200 116
+2021-02-02 09:18:58,175- INFO: 存储完成:id:600533,name:栖霞建设
+2021-02-02 09:18:58,177-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:58,263-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600535&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4677
+2021-02-02 09:18:58,265-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:58,354-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600535 HTTP/1.1" 200 113
+2021-02-02 09:18:58,388- INFO: 存储完成:id:600535,name:天士力
+2021-02-02 09:18:58,389-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:58,476-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600545&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4323
+2021-02-02 09:18:58,478-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:58,565-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600545 HTTP/1.1" 200 116
+2021-02-02 09:18:58,600- INFO: 存储完成:id:600545,name:卓郎智能
+2021-02-02 09:18:58,601-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:58,681-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600557&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4537
+2021-02-02 09:18:58,684-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:58,764-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600557 HTTP/1.1" 200 114
+2021-02-02 09:18:58,800- INFO: 存储完成:id:600557,name:康缘药业
+2021-02-02 09:18:58,802-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:58,880-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600565&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4327
+2021-02-02 09:18:58,882-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:58,979-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600565 HTTP/1.1" 200 116
+2021-02-02 09:18:59,015- INFO: 存储完成:id:600565,name:迪马股份
+2021-02-02 09:18:59,016-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:59,105-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600566&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4606
+2021-02-02 09:18:59,107-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:59,188-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600566 HTTP/1.1" 200 114
+2021-02-02 09:18:59,235- INFO: 存储完成:id:600566,name:济川药业
+2021-02-02 09:18:59,237-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:59,321-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600575&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4360
+2021-02-02 09:18:59,323-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:59,408-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600575 HTTP/1.1" 200 115
+2021-02-02 09:18:59,453- INFO: 存储完成:id:600575,name:淮河能源
+2021-02-02 09:18:59,454-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:59,533-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600580&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4766
+2021-02-02 09:18:59,534-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:59,615-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600580 HTTP/1.1" 200 115
+2021-02-02 09:18:59,660- INFO: 存储完成:id:600580,name:卧龙电驱
+2021-02-02 09:18:59,661-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:59,742-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600583&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4378
+2021-02-02 09:18:59,744-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:18:59,828-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600583 HTTP/1.1" 200 115
+2021-02-02 09:18:59,880- INFO: 存储完成:id:600583,name:海油工程
+2021-02-02 09:18:59,881-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:18:59,960-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600592&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4542
+2021-02-02 09:18:59,962-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:00,047-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600592 HTTP/1.1" 200 113
+2021-02-02 09:19:00,099- INFO: 存储完成:id:600592,name:龙溪股份
+2021-02-02 09:19:00,101-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:00,191-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600595&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4234
+2021-02-02 09:19:00,193-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:00,276-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600595 HTTP/1.1" 200 112
+2021-02-02 09:19:00,320- INFO: 存储完成:id:600595,name:*ST中孚
+2021-02-02 09:19:00,321-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:00,406-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600597&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4759
+2021-02-02 09:19:00,408-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:00,498-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600597 HTTP/1.1" 200 115
+2021-02-02 09:19:00,542- INFO: 存储完成:id:600597,name:光明乳业
+2021-02-02 09:19:00,544-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:00,639-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600602&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4278
+2021-02-02 09:19:00,641-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:00,725-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600602 HTTP/1.1" 200 115
+2021-02-02 09:19:00,767- INFO: 存储完成:id:600602,name:云赛智联
+2021-02-02 09:19:00,768-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:00,848-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600609&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4375
+2021-02-02 09:19:00,850-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:00,936-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600609 HTTP/1.1" 200 115
+2021-02-02 09:19:00,983- INFO: 存储完成:id:600609,name:金杯汽车
+2021-02-02 09:19:00,984-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:01,066-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600611&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4266
+2021-02-02 09:19:01,068-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:01,154-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600611 HTTP/1.1" 200 115
+2021-02-02 09:19:01,211- INFO: 存储完成:id:600611,name:大众交通
+2021-02-02 09:19:01,212-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:01,288-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600615&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4240
+2021-02-02 09:19:01,290-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:01,379-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600615 HTTP/1.1" 200 113
+2021-02-02 09:19:01,454- INFO: 存储完成:id:600615,name:丰华股份
+2021-02-02 09:19:01,455-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:01,534-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600621&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4759
+2021-02-02 09:19:01,536-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:01,629-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600621 HTTP/1.1" 200 115
+2021-02-02 09:19:01,676- INFO: 存储完成:id:600621,name:华鑫股份
+2021-02-02 09:19:01,678-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:01,753-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600622&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4300
+2021-02-02 09:19:01,755-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:01,842-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600622 HTTP/1.1" 200 115
+2021-02-02 09:19:01,889- INFO: 存储完成:id:600622,name:光大嘉宝
+2021-02-02 09:19:01,891-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:01,973-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600626&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4287
+2021-02-02 09:19:01,975-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:02,064-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600626 HTTP/1.1" 200 113
+2021-02-02 09:19:02,110- INFO: 存储完成:id:600626,name:申达股份
+2021-02-02 09:19:02,112-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:02,201-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600630&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4264
+2021-02-02 09:19:02,203-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:02,290-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600630 HTTP/1.1" 200 113
+2021-02-02 09:19:02,334- INFO: 存储完成:id:600630,name:龙头股份
+2021-02-02 09:19:02,336-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:02,411-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600633&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4318
+2021-02-02 09:19:02,414-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:02,500-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600633 HTTP/1.1" 200 115
+2021-02-02 09:19:02,547- INFO: 存储完成:id:600633,name:浙数文化
+2021-02-02 09:19:02,548-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:02,634-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600638&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4278
+2021-02-02 09:19:02,635-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:02,723-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600638 HTTP/1.1" 200 110
+2021-02-02 09:19:02,766- INFO: 存储完成:id:600638,name:新黄浦
+2021-02-02 09:19:02,768-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:02,849-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600641&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4709
+2021-02-02 09:19:02,851-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:02,937-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600641 HTTP/1.1" 200 113
+2021-02-02 09:19:02,978- INFO: 存储完成:id:600641,name:万业企业
+2021-02-02 09:19:02,979-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:03,055-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600642&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4296
+2021-02-02 09:19:03,057-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:03,143-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600642 HTTP/1.1" 200 115
+2021-02-02 09:19:03,190- INFO: 存储完成:id:600642,name:申能股份
+2021-02-02 09:19:03,191-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:03,272-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600643&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4318
+2021-02-02 09:19:03,274-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:03,358-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600643 HTTP/1.1" 200 115
+2021-02-02 09:19:03,406- INFO: 存储完成:id:600643,name:爱建集团
+2021-02-02 09:19:03,407-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:03,496-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600651&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4249
+2021-02-02 09:19:03,498-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:03,587-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600651 HTTP/1.1" 200 111
+2021-02-02 09:19:03,632- INFO: 存储完成:id:600651,name:*ST飞乐
+2021-02-02 09:19:03,634-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:03,725-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600655&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4428
+2021-02-02 09:19:03,727-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:03,816-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600655 HTTP/1.1" 200 115
+2021-02-02 09:19:03,865- INFO: 存储完成:id:600655,name:豫园股份
+2021-02-02 09:19:03,867-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:03,944-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600658&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4299
+2021-02-02 09:19:03,946-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:04,028-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600658 HTTP/1.1" 200 112
+2021-02-02 09:19:04,080- INFO: 存储完成:id:600658,name:电子城
+2021-02-02 09:19:04,081-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:04,157-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600664&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4325
+2021-02-02 09:19:04,159-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:04,247-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600664 HTTP/1.1" 200 115
+2021-02-02 09:19:04,300- INFO: 存储完成:id:600664,name:哈药股份
+2021-02-02 09:19:04,301-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:04,381-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600666&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4241
+2021-02-02 09:19:04,384-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:04,470-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600666 HTTP/1.1" 200 110
+2021-02-02 09:19:04,518- INFO: 存储完成:id:600666,name:ST瑞德
+2021-02-02 09:19:04,520-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:04,606-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600675&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4281
+2021-02-02 09:19:04,608-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:04,695-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600675 HTTP/1.1" 200 115
+2021-02-02 09:19:04,740- INFO: 存储完成:id:600675,name:中华企业
+2021-02-02 09:19:04,742-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:04,824-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600676&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4262
+2021-02-02 09:19:04,826-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:04,916-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600676 HTTP/1.1" 200 115
+2021-02-02 09:19:04,961- INFO: 存储完成:id:600676,name:交运股份
+2021-02-02 09:19:04,962-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:05,046-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600683&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4241
+2021-02-02 09:19:05,048-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:05,134-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600683 HTTP/1.1" 200 113
+2021-02-02 09:19:05,179- INFO: 存储完成:id:600683,name:京投发展
+2021-02-02 09:19:05,181-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:05,258-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600684&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4262
+2021-02-02 09:19:05,260-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:05,348-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600684 HTTP/1.1" 200 113
+2021-02-02 09:19:05,390- INFO: 存储完成:id:600684,name:珠江实业
+2021-02-02 09:19:05,392-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:05,481-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600686&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4397
+2021-02-02 09:19:05,483-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:05,572-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600686 HTTP/1.1" 200 113
+2021-02-02 09:19:05,611- INFO: 存储完成:id:600686,name:金龙汽车
+2021-02-02 09:19:05,613-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:05,749-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600689&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4236
+2021-02-02 09:19:05,752-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:05,840-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600689 HTTP/1.1" 200 113
+2021-02-02 09:19:05,880- INFO: 存储完成:id:600689,name:上海三毛
+2021-02-02 09:19:05,881-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:05,957-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600692&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4272
+2021-02-02 09:19:05,959-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:06,041-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600692 HTTP/1.1" 200 113
+2021-02-02 09:19:06,074- INFO: 存储完成:id:600692,name:亚通股份
+2021-02-02 09:19:06,076-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:06,156-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600699&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4780
+2021-02-02 09:19:06,158-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:06,245-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600699 HTTP/1.1" 200 115
+2021-02-02 09:19:06,278- INFO: 存储完成:id:600699,name:均胜电子
+2021-02-02 09:19:06,279-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:06,368-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600706&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4238
+2021-02-02 09:19:06,370-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:06,452-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600706 HTTP/1.1" 200 113
+2021-02-02 09:19:06,487- INFO: 存储完成:id:600706,name:曲江文旅
+2021-02-02 09:19:06,489-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:06,569-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600707&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4433
+2021-02-02 09:19:06,570-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:06,657-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600707 HTTP/1.1" 200 115
+2021-02-02 09:19:06,724- INFO: 存储完成:id:600707,name:彩虹股份
+2021-02-02 09:19:06,725-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:06,808-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600714&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4237
+2021-02-02 09:19:06,809-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:06,896-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600714 HTTP/1.1" 200 113
+2021-02-02 09:19:06,939- INFO: 存储完成:id:600714,name:金瑞矿业
+2021-02-02 09:19:06,941-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:07,019-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600716&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4224
+2021-02-02 09:19:07,021-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:07,107-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600716 HTTP/1.1" 200 113
+2021-02-02 09:19:07,144- INFO: 存储完成:id:600716,name:凤凰股份
+2021-02-02 09:19:07,145-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:07,233-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600718&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4581
+2021-02-02 09:19:07,235-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:07,323-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600718 HTTP/1.1" 200 115
+2021-02-02 09:19:07,360- INFO: 存储完成:id:600718,name:东软集团
+2021-02-02 09:19:07,361-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:07,437-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600719&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4248
+2021-02-02 09:19:07,438-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:07,520-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600719 HTTP/1.1" 200 113
+2021-02-02 09:19:07,564- INFO: 存储完成:id:600719,name:大连热电
+2021-02-02 09:19:07,566-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:07,642-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600720&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4760
+2021-02-02 09:19:07,643-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:07,729-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600720 HTTP/1.1" 200 110
+2021-02-02 09:19:07,772- INFO: 存储完成:id:600720,name:祁连山
+2021-02-02 09:19:07,773-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:07,851-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600725&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4212
+2021-02-02 09:19:07,853-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:07,940-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600725 HTTP/1.1" 200 111
+2021-02-02 09:19:07,985- INFO: 存储完成:id:600725,name:ST云维
+2021-02-02 09:19:07,986-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:08,073-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600726&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4340
+2021-02-02 09:19:08,074-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:08,161-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600726 HTTP/1.1" 200 115
+2021-02-02 09:19:08,200- INFO: 存储完成:id:600726,name:华电能源
+2021-02-02 09:19:08,202-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:08,286-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600728&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4384
+2021-02-02 09:19:08,288-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:08,374-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600728 HTTP/1.1" 200 115
+2021-02-02 09:19:08,413- INFO: 存储完成:id:600728,name:佳都科技
+2021-02-02 09:19:08,415-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:08,491-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600731&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4590
+2021-02-02 09:19:08,493-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:08,582-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600731 HTTP/1.1" 200 113
+2021-02-02 09:19:08,623- INFO: 存储完成:id:600731,name:湖南海利
+2021-02-02 09:19:08,624-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:08,705-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600736&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4276
+2021-02-02 09:19:08,706-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:08,796-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600736 HTTP/1.1" 200 115
+2021-02-02 09:19:08,836- INFO: 存储完成:id:600736,name:苏州高新
+2021-02-02 09:19:08,838-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:08,916-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600737&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4468
+2021-02-02 09:19:08,918-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:09,007-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600737 HTTP/1.1" 200 115
+2021-02-02 09:19:09,049- INFO: 存储完成:id:600737,name:中粮糖业
+2021-02-02 09:19:09,050-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:09,136-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600739&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4757
+2021-02-02 09:19:09,138-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:09,227-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600739 HTTP/1.1" 200 115
+2021-02-02 09:19:09,266- INFO: 存储完成:id:600739,name:辽宁成大
+2021-02-02 09:19:09,268-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:09,345-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600743&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4299
+2021-02-02 09:19:09,347-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:09,435-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600743 HTTP/1.1" 200 115
+2021-02-02 09:19:09,475- INFO: 存储完成:id:600743,name:华远地产
+2021-02-02 09:19:09,476-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:09,552-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600748&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4298
+2021-02-02 09:19:09,554-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:09,663-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600748 HTTP/1.1" 200 115
+2021-02-02 09:19:09,701- INFO: 存储完成:id:600748,name:上实发展
+2021-02-02 09:19:09,703-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:09,778-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600753&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4609
+2021-02-02 09:19:09,780-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:09,862-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600753 HTTP/1.1" 200 113
+2021-02-02 09:19:09,903- INFO: 存储完成:id:600753,name:东方银星
+2021-02-02 09:19:09,904-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:09,990-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600755&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4297
+2021-02-02 09:19:09,992-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:10,076-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600755 HTTP/1.1" 200 115
+2021-02-02 09:19:10,117- INFO: 存储完成:id:600755,name:厦门国贸
+2021-02-02 09:19:10,118-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:10,196-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600758&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4352
+2021-02-02 09:19:10,198-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:10,287-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600758 HTTP/1.1" 200 115
+2021-02-02 09:19:10,331- INFO: 存储完成:id:600758,name:辽宁能源
+2021-02-02 09:19:10,332-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:10,412-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600761&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4683
+2021-02-02 09:19:10,414-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:10,501-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600761 HTTP/1.1" 200 113
+2021-02-02 09:19:10,544- INFO: 存储完成:id:600761,name:安徽合力
+2021-02-02 09:19:10,545-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:10,625-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600764&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4666
+2021-02-02 09:19:10,627-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:10,713-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600764 HTTP/1.1" 200 113
+2021-02-02 09:19:10,757- INFO: 存储完成:id:600764,name:中国海防
+2021-02-02 09:19:10,758-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:10,835-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600776&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4672
+2021-02-02 09:19:10,837-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:10,924-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600776 HTTP/1.1" 200 114
+2021-02-02 09:19:10,968- INFO: 存储完成:id:600776,name:东方通信
+2021-02-02 09:19:10,969-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:11,050-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600780&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4250
+2021-02-02 09:19:11,052-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:11,141-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600780 HTTP/1.1" 200 115
+2021-02-02 09:19:11,183- INFO: 存储完成:id:600780,name:通宝能源
+2021-02-02 09:19:11,185-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:11,263-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600782&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4406
+2021-02-02 09:19:11,264-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:11,356-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600782 HTTP/1.1" 200 115
+2021-02-02 09:19:11,405- INFO: 存储完成:id:600782,name:新钢股份
+2021-02-02 09:19:11,406-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:11,487-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600784&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4288
+2021-02-02 09:19:11,489-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:11,571-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600784 HTTP/1.1" 200 113
+2021-02-02 09:19:11,612- INFO: 存储完成:id:600784,name:鲁银投资
+2021-02-02 09:19:11,613-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:11,706-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600785&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4482
+2021-02-02 09:19:11,708-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:11,793-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600785 HTTP/1.1" 200 113
+2021-02-02 09:19:11,852- INFO: 存储完成:id:600785,name:新华百货
+2021-02-02 09:19:11,853-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:11,932-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600787&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4303
+2021-02-02 09:19:11,934-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:12,023-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600787 HTTP/1.1" 200 115
+2021-02-02 09:19:12,068- INFO: 存储完成:id:600787,name:中储股份
+2021-02-02 09:19:12,069-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:12,147-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600795&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4403
+2021-02-02 09:19:12,149-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:12,231-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600795 HTTP/1.1" 200 117
+2021-02-02 09:19:12,268- INFO: 存储完成:id:600795,name:国电电力
+2021-02-02 09:19:12,270-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:12,351-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600796&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 3757
+2021-02-02 09:19:12,352-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:12,443-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600796 HTTP/1.1" 200 113
+2021-02-02 09:19:12,477- INFO: 存储完成:id:600796,name:钱江生化
+2021-02-02 09:19:12,479-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:12,559-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600803&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4707
+2021-02-02 09:19:12,561-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:12,646-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600803 HTTP/1.1" 200 115
+2021-02-02 09:19:12,688- INFO: 存储完成:id:600803,name:新奥股份
+2021-02-02 09:19:12,690-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:12,766-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600805&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4325
+2021-02-02 09:19:12,767-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:12,853-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600805 HTTP/1.1" 200 113
+2021-02-02 09:19:12,892- INFO: 存储完成:id:600805,name:悦达投资
+2021-02-02 09:19:12,893-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:12,981-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600808&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4386
+2021-02-02 09:19:12,983-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:13,071-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600808 HTTP/1.1" 200 115
+2021-02-02 09:19:13,119- INFO: 存储完成:id:600808,name:马钢股份
+2021-02-02 09:19:13,121-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:13,209-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600809&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 5075
+2021-02-02 09:19:13,211-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:13,298-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600809 HTTP/1.1" 200 113
+2021-02-02 09:19:13,345- INFO: 存储完成:id:600809,name:山西汾酒
+2021-02-02 09:19:13,346-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:13,426-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600816&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4343
+2021-02-02 09:19:13,428-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:13,515-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600816 HTTP/1.1" 200 112
+2021-02-02 09:19:13,569- INFO: 存储完成:id:600816,name:*ST安信
+2021-02-02 09:19:13,570-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:13,655-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600819&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4320
+2021-02-02 09:19:13,658-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:13,747-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600819 HTTP/1.1" 200 113
+2021-02-02 09:19:13,803- INFO: 存储完成:id:600819,name:耀皮玻璃
+2021-02-02 09:19:13,804-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:13,882-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600820&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4312
+2021-02-02 09:19:13,883-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:13,968-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600820 HTTP/1.1" 200 115
+2021-02-02 09:19:14,024- INFO: 存储完成:id:600820,name:隧道股份
+2021-02-02 09:19:14,026-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:14,103-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600821&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4236
+2021-02-02 09:19:14,105-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:14,187-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600821 HTTP/1.1" 200 111
+2021-02-02 09:19:14,243- INFO: 存储完成:id:600821,name:*ST劝业
+2021-02-02 09:19:14,245-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:14,322-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600823&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4356
+2021-02-02 09:19:14,324-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:14,413-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600823 HTTP/1.1" 200 115
+2021-02-02 09:19:14,465- INFO: 存储完成:id:600823,name:世茂股份
+2021-02-02 09:19:14,467-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:14,546-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600826&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4309
+2021-02-02 09:19:14,548-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:14,666-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600826 HTTP/1.1" 200 113
+2021-02-02 09:19:14,716- INFO: 存储完成:id:600826,name:兰生股份
+2021-02-02 09:19:14,717-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:14,803-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600830&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4276
+2021-02-02 09:19:14,805-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:14,889-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600830 HTTP/1.1" 200 113
+2021-02-02 09:19:14,934- INFO: 存储完成:id:600830,name:香溢融通
+2021-02-02 09:19:14,935-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:15,013-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600831&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4307
+2021-02-02 09:19:15,015-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:15,101-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.600831 HTTP/1.1" 200 113
+2021-02-02 09:19:15,151- INFO: 存储完成:id:600831,name:广电网络
+2021-02-02 09:19:15,152-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:15,227-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.600837&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4792
+2021-02-02 09:19:15,230-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:2021-02-02 09:19:15,629-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002527 HTTP/1.1" 200 110
+2021-02-02 09:19:15,661- INFO: 存储完成:id:002527,name:新时达
+2021-02-02 09:19:15,662-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:15,739-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002528&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4275
+2021-02-02 09:19:15,741-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:15,824-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002528 HTTP/1.1" 200 112
+2021-02-02 09:19:15,855- INFO: 存储完成:id:002528,name:英飞拓
+2021-02-02 09:19:15,856-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:15,944-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002530&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4321
+2021-02-02 09:19:15,946-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:16,033-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002530 HTTP/1.1" 200 113
+2021-02-02 09:19:16,065- INFO: 存储完成:id:002530,name:金财互联
+2021-02-02 09:19:16,067-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:16,154-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002542&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4283
+2021-02-02 09:19:16,156-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:16,241-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002542 HTTP/1.1" 200 115
+2021-02-02 09:19:16,277- INFO: 存储完成:id:002542,name:中化岩土
+2021-02-02 09:19:16,278-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:16,356-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002543&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4291
+2021-02-02 09:19:16,358-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:16,442-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002543 HTTP/1.1" 200 113
+2021-02-02 09:19:16,475- INFO: 存储完成:id:002543,name:万和电气
+2021-02-02 09:19:16,477-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:16,556-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002547&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4342
+2021-02-02 09:19:16,559-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:16,647-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002547 HTTP/1.1" 200 114
+2021-02-02 09:19:16,686- INFO: 存储完成:id:002547,name:春兴精工
+2021-02-02 09:19:16,688-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:16,766-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002553&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4493
+2021-02-02 09:19:16,767-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:16,850-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002553 HTTP/1.1" 200 113
+2021-02-02 09:19:16,898- INFO: 存储完成:id:002553,name:南方轴承
+2021-02-02 09:19:16,900-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:16,989-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002573&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4280
+2021-02-02 09:19:16,990-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:17,077-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002573 HTTP/1.1" 200 115
+2021-02-02 09:19:17,155- INFO: 存储完成:id:002573,name:清新环境
+2021-02-02 09:19:17,157-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:17,242-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002575&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4227
+2021-02-02 09:19:17,244-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:17,328-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002575 HTTP/1.1" 200 110
+2021-02-02 09:19:17,378- INFO: 存储完成:id:002575,name:*ST群兴
+2021-02-02 09:19:17,379-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:17,461-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002577&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4606
+2021-02-02 09:19:17,463-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:17,548-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002577 HTTP/1.1" 200 113
+2021-02-02 09:19:17,597- INFO: 存储完成:id:002577,name:雷柏科技
+2021-02-02 09:19:17,598-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:17,680-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002583&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4351
+2021-02-02 09:19:17,682-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:17,771-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002583 HTTP/1.1" 200 112
+2021-02-02 09:19:17,820- INFO: 存储完成:id:002583,name:海能达
+2021-02-02 09:19:17,822-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:17,902-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002584&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4327
+2021-02-02 09:19:17,904-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:17,990-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002584 HTTP/1.1" 200 113
+2021-02-02 09:19:18,036- INFO: 存储完成:id:002584,name:西陇科学
+2021-02-02 09:19:18,038-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:18,122-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002590&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4326
+2021-02-02 09:19:18,124-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:18,218-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002590 HTTP/1.1" 200 113
+2021-02-02 09:19:18,264- INFO: 存储完成:id:002590,name:万安科技
+2021-02-02 09:19:18,265-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:18,350-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002594&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 5187
+2021-02-02 09:19:18,351-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:18,443-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002594 HTTP/1.1" 200 112
+2021-02-02 09:19:18,485- INFO: 存储完成:id:002594,name:比亚迪
+2021-02-02 09:19:18,486-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:18,568-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002601&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4786
+2021-02-02 09:19:18,570-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:18,659-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002601 HTTP/1.1" 200 115
+2021-02-02 09:19:18,700- INFO: 存储完成:id:002601,name:龙蟒佰利
+2021-02-02 09:19:18,702-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:18,788-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002602&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4448
+2021-02-02 09:19:18,791-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:18,878-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002602 HTTP/1.1" 200 115
+2021-02-02 09:19:18,958- INFO: 存储完成:id:002602,name:世纪华通
+2021-02-02 09:19:18,959-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:19,034-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002611&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4311
+2021-02-02 09:19:19,036-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:19,124-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002611 HTTP/1.1" 200 115
+2021-02-02 09:19:19,145- INFO: 存储完成:id:002611,name:东方精工
+2021-02-02 09:19:19,146-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:19,228-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002612&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4671
+2021-02-02 09:19:19,230-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:19,313-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002612 HTTP/1.1" 200 113
+2021-02-02 09:19:19,347- INFO: 存储完成:id:002612,name:朗姿股份
+2021-02-02 09:19:19,348-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:19,438-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002624&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4794
+2021-02-02 09:19:19,439-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:19,524-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002624 HTTP/1.1" 200 115
+2021-02-02 09:19:19,561- INFO: 存储完成:id:002624,name:完美世界
+2021-02-02 09:19:19,562-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:19,639-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002627&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4286
+2021-02-02 09:19:19,640-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:19,729-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002627 HTTP/1.1" 200 113
+2021-02-02 09:19:19,765- INFO: 存储完成:id:002627,name:宜昌交运
+2021-02-02 09:19:19,766-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:19,844-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002628&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4280
+2021-02-02 09:19:19,846-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:19,928-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002628 HTTP/1.1" 200 113
+2021-02-02 09:19:19,963- INFO: 存储完成:id:002628,name:成都路桥
+2021-02-02 09:19:19,964-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:20,041-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002630&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4379
+2021-02-02 09:19:20,043-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:20,130-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002630 HTTP/1.1" 200 114
+2021-02-02 09:19:20,167- INFO: 存储完成:id:002630,name:华西能源
+2021-02-02 09:19:20,168-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:20,250-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002650&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4393
+2021-02-02 09:19:20,251-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:20,340-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002650 HTTP/1.1" 200 111
+2021-02-02 09:19:20,377- INFO: 存储完成:id:002650,name:ST加加
+2021-02-02 09:19:20,379-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:20,466-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002651&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4633
+2021-02-02 09:19:20,467-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:20,557-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002651 HTTP/1.1" 200 114
+2021-02-02 09:19:20,592- INFO: 存储完成:id:002651,name:利君股份
+2021-02-02 09:19:20,594-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:20,676-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002656&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4222
+2021-02-02 09:19:20,678-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:20,769-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002656 HTTP/1.1" 200 109
+2021-02-02 09:19:20,806- INFO: 存储完成:id:002656,name:ST摩登
+2021-02-02 09:19:20,808-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:20,886-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002658&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4205
+2021-02-02 09:19:20,888-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:20,975-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002658 HTTP/1.1" 200 110
+2021-02-02 09:19:21,007- INFO: 存储完成:id:002658,name:雪迪龙
+2021-02-02 09:19:21,008-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:21,089-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002662&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4409
+2021-02-02 09:19:21,091-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:21,176-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002662 HTTP/1.1" 200 115
+2021-02-02 09:19:21,208- INFO: 存储完成:id:002662,name:京威股份
+2021-02-02 09:19:21,210-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:21,290-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002663&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4321
+2021-02-02 09:19:21,292-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com2021-2021-02-02 09:19:21,375-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002663 HTTP/1.1" 200 115
+2021-02-02 09:19:21,401- INFO: 存储完成:id:002663,name:普邦股份
+2021-02-02 09:19:21,403-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com2021-2021-02-02 09:19:21,479-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002678&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4163
+2021-02-02 09:19:21,481-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com2021-2021-02-02 09:19:21,566-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002678 HTTP/1.1" 200 115
+2021-02-02 09:19:21,596- INFO: 存储完成:id:002678,name:珠江钢琴
+2021-02-02 09:19:21,598-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com2021-2021-02-02 09:19:21,684-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002682&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4303
+2021-02-02 09:19:21,686-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com2021-2021-02-02 09:19:21,772-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002682 HTTP/1.1" 200 113
+2021-02-02 09:19:21,800- INFO: 存储完成:id:002682,name:龙洲股份
+2021-02-02 09:19:21,801-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com2021-2021-02-02 09:19:21,887-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002692&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4186
+2021-02-02 09:19:21,889-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com2021-2021-02-02 09:19:21,979-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002692 HTTP/1.1" 200 109
+2021-02-02 09:19:22,004- INFO: 存储完成:id:002692,name:ST远程
+2021-02-02 09:19:22,006-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:82022021-02-02 09:19:22,090-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002694&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4292022021-02-02 09:19:22,095-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:82021-02-02 09:19:22,185-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601086 HTTP/1.1" 200 113
+2021-02-02 09:19:22,243- INFO: 存储完成:id:601086,name:国芳集团
+2021-02-02 09:19:22,244-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:22,324-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601098&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4513
+2021-02-02 09:19:22,326-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2022021-02-02 09:19:22,418-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002700 HTTP/1.1" 200 102021-02-02 09:19:22,460- INFO: 存储完成:id:601098,name:中南传媒
+2021-02-02 09:19:22,461-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+22021-02-02 09:19:22,554-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002708&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4294
+2021-02-02 09:19:22,556-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:19:22,643-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002708 HTTP/1.1" 200 11322021-02-02 09:19:22,672- INFO: 存储完成:id:002708,name:光洋股份
+2021-02-02 09:19:22,673-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:8022021-02-02 09:19:22,755-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002709&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4912
+2021-02-02 09:19:22,757-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:19:22,845-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002709 HTTP/1.1" 200 11322021-02-02 09:19:22,879- INFO: 存储完成:id:002709,name:天赐材料
+2021-02-02 09:19:22,881-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:8022021-02-02 09:19:22,958-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002714&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4834
+2021-02-02 09:19:22,960-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:19:23,046-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002714 HTTP/1.1" 200 1152021-02-02 09:19:23,083- INFO: 存储完成:id:601117,name:中国化学
+2021-02-02 09:19:23,084-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:23,161-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601155&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4706
+2021-02-02 09:19:23,163-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:23,254-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601155 HTTP/1.1" 200 115
+2021-02-02 09:19:23,295- INFO: 存储完成:id:601155,name:新城控股
+2021-02-02 09:19:23,297-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+22021-02-02 09:19:23,411-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002722&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 447422021-02-02 09:19:23,413-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:19:23,501-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002722 HTTP/1.1" 200 1132021-02-02 09:19:23,537- INFO: 存储完成:id:601163,name:三角轮胎
+2021-02-02 09:19:23,539-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+22021-02-02 09:19:23,616-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.002723&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4604
+2021-02-02 09:19:23,618-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:19:23,707-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.002723 HTTP/1.1" 200 1102021-02-02 09:19:23,745- INFO: 存储完成:id:601177,name:杭齿前进
+2021-02-02 09:19:23,747-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:8022021-02-02 09:19:23,834-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601208&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4629
+2021-02-02 09:19:23,837-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:19:23,926-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601208 HTTP/1.1" 200 11322021-02-02 09:19:23,971- INFO: 存储完成:id:601208,name:东材科技
+2021-02-02 09:19:23,972-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:8022021-02-02 09:19:24,050-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601211&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4770
+2021-02-02 09:19:24,051-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:19:24,142-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601211 HTTP/1.1" 200 115
+2021-02-02 09:19:24,188- INFO: 存储完成:id:601211,name:国泰君安
+2021-02-02 09:19:24,189-DEBUG: Starting new HTTP connection (1): push2his.eastmoney2021-02-22021-02-02 09:19:24,268-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601225&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4576
+2021-02-02 09:19:24,270-DEBUG: Starting new HTTP connection (1): push2.eastmoney2021-02-22021-02-02 09:19:24,355-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601225 HTTP/1.1" 200 117
+2021-02-02 09:19:24,400- INFO: 存储完成:id:601225,name:陕西煤业
+2021-02-02 09:19:24,402-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:8022021-02-02 09:19:24,486-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601228&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4327
+2021-02-02 09:19:24,488-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:8022021-02-02 09:19:24,571-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601228 HTTP/1.1" 200 112
+2021-02-02 09:19:24,617- INFO: 存储完成:id:601228,name:广州港
+2021-02-02 09:19:24,618-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:24,704-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601233&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4812
+2021-02-02 09:19:24,706-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:24,792-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601233 HTTP/1.1" 200 115
+2021-02-02 09:19:24,833- INFO: 存储完成:id:601233,name:桐昆股份
+2021-02-02 09:19:24,835-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:24,912-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601326&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4302
+2021-02-02 09:19:24,914-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:25,000-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601326 HTTP/1.1" 200 115
+2021-02-02 09:19:25,044- INFO: 存储完成:id:601326,name:秦港股份
+2021-02-02 09:19:25,046-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:25,135-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601333&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4346
+2021-02-02 09:19:25,136-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:25,223-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601333 HTTP/1.1" 200 115
+2021-02-02 09:19:25,266- INFO: 存储完成:id:601333,name:广深铁路
+2021-02-02 09:19:25,268-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:25,354-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601336&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4799
+2021-02-02 09:19:25,356-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:25,443-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601336 HTTP/1.1" 200 115
+2021-02-02 09:19:25,485- INFO: 存储完成:id:601336,name:新华保险
+2021-02-02 09:19:25,486-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:25,563-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601339&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4338
+2021-02-02 09:19:25,565-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:25,650-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601339 HTTP/1.1" 200 115
+2021-02-02 09:19:25,695- INFO: 存储完成:id:601339,name:百隆东方
+2021-02-02 09:19:25,697-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:25,777-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601390&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4453
+2021-02-02 09:19:25,778-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:25,863-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601390 HTTP/1.1" 200 117
+2021-02-02 09:19:25,910- INFO: 存储完成:id:601390,name:中国中铁
+2021-02-02 09:19:25,911-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:25,987-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601567&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4306
+2021-02-02 09:19:25,989-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,076-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601567 HTTP/1.1" 200 115
+2021-02-02 09:19:26,124- INFO: 存储完成:id:601567,name:三星医疗
+2021-02-02 09:19:26,126-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:26,207-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601616&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4290
+2021-02-02 09:19:26,209-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,299-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601616 HTTP/1.1" 200 113
+2021-02-02 09:19:26,344- INFO: 存储完成:id:601616,name:广电电气
+2021-02-02 09:19:26,345-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:26,463-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601628&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4803
+2021-02-02 09:19:26,465-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,548-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601628 HTTP/1.1" 200 117
+2021-02-02 09:19:26,584- INFO: 存储完成:id:601628,name:中国人寿
+2021-02-02 09:19:26,585-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+09:19:26,450-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601003&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4329
+2021-02-02 09:19:26,453-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,541-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601003 HTTP/1.1" 200 115
+2021-02-02 09:19:26,578- INFO: 存储完成:id:601003,name:柳钢股份
+2021-02-02 09:19:26,579-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:33,666-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601008&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4364
+2021-02-02 09:19:33,668-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:48,751-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601008 HTTP/1.1" 200 112
+2021-02-02 09:19:48,785- INFO: 存储完成:id:601008,name:连云港
+2021-02-02 09:19:48,786-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:49,863-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601011&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4398
+2021-02-02 09:19:49,865-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:56,957-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.601011 HTTP/1.1" 200 112
+2021-02-02 09:19:56,973- INFO: 存储完成:id:601011,name:宝泰隆
+2021-02-02 09:19:56,975-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:57,052-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.601018&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4359
+2021-02-02 09:19:57,054-DEBUG: Starting new HTTP connection (1): push2.eastmo2021-02-02 09:19:58,080-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000029&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 3279
+2021-02-02 09:19:58,083-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+.com:80
+ney.com:80
+2021-02-02 09:19:25,880-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000039&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4738
+2021-02-02 09:19:25,882-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:25,965-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000039 HTTP/1.1" 200 115
+2021-02-02 09:19:26,003- INFO: 存储完成:id:000039,name:中集集团
+2021-02-02 09:19:26,005-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:26,095-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000061&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4318
+2021-02-02 09:19:26,097-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,179-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000061 HTTP/1.1" 200 114
+2021-02-02 09:19:26,221- INFO: 存储完成:id:000061,name:农 产 品
+2021-02-02 09:19:26,223-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:26,300-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000069&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4438
+2021-02-02 09:19:26,302-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,388-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000069 HTTP/1.1" 200 115
+2021-02-02 09:19:26,430- INFO: 存储完成:id:000069,name:华侨城Ａ
+2021-02-02 09:19:26,431-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:26,511-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=0.000096&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4328
+2021-02-02 09:19:26,514-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,597-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=0.000096 HTTP/1.1" 200 113
+2021-02-02 09:19:26,628- INFO: 存储完成:id:000096,name:广聚能源
+2021-02-02 09:19:26,631-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+021-02-02 09:19:26,543-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.688561&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4959
+2021-02-02 09:19:26,546-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:33,635-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.688561 HTTP/1.1" 200 111
+2021-02-02 09:19:33,678- INFO: 存储完成:id:688561,name:奇安信-U
+2021-02-02 09:19:33,679-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+
+2021-02-02 09:19:25,998-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.688018&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4895
+2021-02-02 09:19:26,000-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,086-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.688018 HTTP/1.1" 200 111
+2021-02-02 09:19:26,128- INFO: 存储完成:id:688018,name:乐鑫科技
+2021-02-02 09:19:26,130-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:26,210-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.688022&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4558
+2021-02-02 09:19:26,212-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,298-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.688022 HTTP/1.1" 200 112
+2021-02-02 09:19:26,338- INFO: 存储完成:id:688022,name:瀚川智能
+2021-02-02 09:19:26,340-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:26,418-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.688027&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4948
+2021-02-02 09:19:26,420-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:26,507-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.688027 HTTP/1.1" 200 111
+2021-02-02 09:19:26,551- INFO: 存储完成:id:688027,name:国盾量子
+2021-02-02 09:19:26,553-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:33,637-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.688033&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4599
+2021-02-02 09:19:33,639-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
+2021-02-02 09:19:40,728-DEBUG: http://push2.eastmoney.com:80 "GET /api/qt/stock/get?ut=fa5fd1943c7b386f172d6893dbfba10b&fltt=2&invt=2&volt=2&fields=f58,f84,f85&secid=1.688033 HTTP/1.1" 200 113
+2021-02-02 09:19:40,763- INFO: 存储完成:id:688033,name:天宜上佳
+2021-02-02 09:19:40,765-DEBUG: Starting new HTTP connection (1): push2his.eastmoney.com:80
+2021-02-02 09:19:47,913-DEBUG: http://push2his.eastmoney.com:80 "GET /api/qt/stock/kline/get?secid=1.688069&fields1=f1,f2,f3,f4,f5&fields2=f51,f52,f53,f54,f55,f56,f57&klt=101&fqt=1&beg=20201001&end=20220101&ut=fa5fd1943c7b386f172d6893dbfba10b HTTP/1.1" 200 4536
+2021-02-02 09:19:47,915-DEBUG: Starting new HTTP connection (1): push2.eastmoney.com:80
