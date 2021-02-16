@@ -12,6 +12,7 @@ import numpy as np
 import streamlit as st
 import datetime
 import json
+import copy
 
 sns.set()
 #pro = ts.pro_api()
@@ -48,8 +49,10 @@ def select_comput_res(db,date,option,grade_start = 0,grade_end = 0,stock_id = No
     #       "ON I.stock_id = C.stock_code " .format(start_date,date) #旧版本查询热度
     sql3 = "select redu_5,stock_id,stock_name,h_table from com_redu where redu_5 >='{1}' and redu_5 <='{2}' " \
            "and trade_date = '{0}'".format(date,grade_start,grade_end)
-    sql4 = "select redu_5,stock_id,stock_name,h_table from com_redu where redu_5 >='{1}' and redu_5 <='{2}' " \
-           "and trade_date = '{0}'".format(date,grade_start,grade_end)
+    sql4 = "select C.zhuang_grade,I.stock_id,I.stock_name,I.h_table from stock_informations I " \
+           "LEFT JOIN (select stock_id,zhuang_grade from com_zhuang ) C " \
+           "ON I.stock_id = C.stock_id " \
+           "where I.stock_id = '{0}'".format(stock_id)
     print('sql4',sql4)
     sql5 = "select V.redu_5,V.stock_id,V.stock_name,I.h_table,V.trade_date,I.bk_name from verify_redu_5 V " \
            "left join stock_informations I " \
@@ -91,6 +94,7 @@ def get_df_from_db(sql, db):
     # df['trade_date'] = pd.to_datetime(df['trade_date']).map(date2num)
     df['dates'] = np.arange(0, len(df))
     cursor.close()
+    df = df.fillna(0)
     print("df:",df)
     # df['trade_date'] = date2num(df['trade_date'])
     return df
@@ -165,9 +169,12 @@ def draw_k_line(df,chart_title,zhuang_section=[],yidong =[]):
     # st.bar_chart(turnover_df)
 #查询庄线集合
 def new_draw_k_line(df,chart_title,zhuang_section=[],yidong =[]):
+    old_df = copy.deepcopy(df)
+    old_df['5'] = old_df['close_price'].rolling(5).mean()
+    # old_df.set_index(["dates"], inplace=True)
     # 对数据进行改名，mplfinance有要求
     df.rename(
-        columns={'dates': 'Date', 'open_price': 'Open', 'high_price': 'High', 'low_price': 'Low', 'close_price': 'Close', 'trade_amount': 'Volume'},
+        columns={'trade_date': 'Date', 'open_price': 'Open', 'high_price': 'High', 'low_price': 'Low', 'close_price': 'Close', 'trade_amount': 'Volume'},
         inplace=True)
     # 将Date设置为索引，并转换为 datetime 格式
     df.set_index(["Date"], inplace=True)
@@ -176,7 +183,12 @@ def new_draw_k_line(df,chart_title,zhuang_section=[],yidong =[]):
     plt.rcParams['axes.unicode_minus'] = False
     s = mpf.make_mpf_style(base_mpf_style='yahoo', rc={'font.family': 'SimHei'})
     fig, ax = plt.subplots(figsize=(23,3))
-    mpf.plot(df, type='candle', mav=(5), volume=True,title=chart_title,style=s)
+    mpf.plot(df, type='candle', mav=(5,125), volume=True,title=chart_title,style=s)
+    for zhaung_tup in zhuang_section:
+        sta = comput_ind(old_df, zhaung_tup[1])
+        end = comput_ind(old_df, zhaung_tup[0])
+        print('indexs:',sta,end )
+        plt.plot(old_df['dates'][sta:end], old_df['5'][sta:end], color='yellow')
     plt.legend()
     st.pyplot()
 def sel_zhuang_json(db,date,ids):
@@ -205,11 +217,12 @@ def draw_main(db,info_list,date,start_date,end_date):
         chart_title = id_tup[1] + '_' + id_tup[2] + '_' + str(id_tup[0]) + '_' + date
         h_tab = id_tup[3]
         # ids = '600018'
-        sql = "SELECT trade_date,open_price,close_price,high_price,low_price,turnover_rate  FROM stockdb.stock_history_trade{0} \
+        sql = "SELECT trade_date,open_price,close_price,high_price,low_price,turnover_rate as trade_amount  FROM stockdb.stock_history_trade{0} \
                 where trade_date >= '{1}' and trade_date <= '{2}' and  stock_id = '{3}'".format(h_tab, start_date, end_date, ids)
         df = get_df_from_db(sql, db)
         zhuang_section,yidong = sel_zhuang_json(db, date, ids)
-        draw_k_line(df, chart_title,zhuang_section,yidong)
+        # draw_k_line(df, chart_title,zhuang_section,yidong)
+        new_draw_k_line(df, chart_title,zhuang_section,yidong)
 def draw_main_user_define(db,info_list):
     for id_tup in info_list:
         print('id_tup:',id_tup)
