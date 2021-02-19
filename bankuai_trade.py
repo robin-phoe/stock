@@ -168,7 +168,7 @@ def main(date):
         page = int(page) + 1
     save_sort()
 if __name__ == '__main__':
-    date = '20210209'#None
+    date = '20210218'#None
     main(date)
     # get_history()
     # com_his_rank(start_date='2020-12-20', end_date='2020-12-29')

@@ -54,10 +54,15 @@ def select_comput_res(db,date,option,grade_start = 0,grade_end = 0,stock_id = No
            "ON I.stock_id = C.stock_id " \
            "where I.stock_id = '{0}'".format(stock_id)
     print('sql4',sql4)
-    sql5 = "select V.redu_5,V.stock_id,V.stock_name,I.h_table,V.trade_date,I.bk_name from verify_redu_5 V " \
+    # sql5 = "select V.redu_5,V.stock_id,V.stock_name,I.h_table,V.trade_date,I.bk_name from verify_redu_5 V " \
+    #        "left join stock_informations I " \
+    #        "on V.stock_id = I.stock_id " \
+    #        " where V.redu_5 >= 10000 and V.days = 4 "
+
+    #自定义量庄测试
+    sql5 = "select C.zhuang_grade,C.stock_id,C.stock_name,I.h_table,C.dibu_date,I.bk_name from compute_zhuang_test C " \
            "left join stock_informations I " \
-           "on V.stock_id = I.stock_id " \
-           " where V.redu_5 >= 10000 and V.days = 4 "
+           "on C.stock_id = I.stock_id order by C.stock_id"
     if option == 'fantan_grade':
         sql = sql2
     elif option == 'zhuang_grade':
@@ -217,8 +222,10 @@ def draw_main(db,info_list,date,start_date,end_date):
         chart_title = id_tup[1] + '_' + id_tup[2] + '_' + str(id_tup[0]) + '_' + date
         h_tab = id_tup[3]
         # ids = '600018'
+        # sql = "SELECT trade_date,open_price,close_price,high_price,low_price,turnover_rate as trade_amount  FROM stockdb.stock_history_trade{0} \
+        #         where trade_date >= '{1}' and trade_date <= '{2}' and  stock_id = '{3}'".format(h_tab, start_date, end_date, ids)
         sql = "SELECT trade_date,open_price,close_price,high_price,low_price,turnover_rate as trade_amount  FROM stockdb.stock_history_trade{0} \
-                where trade_date >= '{1}' and trade_date <= '{2}' and  stock_id = '{3}'".format(h_tab, start_date, end_date, ids)
+                where  trade_date>='{1}' and trade_date<='{2}' and stock_id = '{3}'".format(h_tab,start_date,end_date,ids)
         df = get_df_from_db(sql, db)
         zhuang_section,yidong = sel_zhuang_json(db, date, ids)
         # draw_k_line(df, chart_title,zhuang_section,yidong)
@@ -246,7 +253,7 @@ def draw_main_user_define(db,info_list):
             continue
         print('index_list',type(df['trade_date'][0]))
         index = index_list.index[-1]
-        df =df[0:index+4]
+        # df =df[0:index+4]
         zhuang_section,yidong = sel_zhuang_json(db, date, ids)
         # draw_k_line(df, chart_title,zhuang_section,yidong)
         new_draw_k_line(df, chart_title, zhuang_section=[], yidong=[])
