@@ -139,21 +139,21 @@ def main(h_tab,date):
                 redu_5 = redu_grade
         print('redu_grade:',redu_grade,redu_5)
         redu_init = com_redu_init(redu_grade, df)
-        try:
-            sql = "insert into com_redu(trade_code,trade_date,stock_id,stock_name,redu,redu_5,avg_5,h_table,redu_init) \
-                values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}') " \
-                  "ON DUPLICATE KEY UPDATE trade_code='{0}',trade_date='{1}',stock_id='{2}',stock_name='{3}'," \
-                  "redu ='{4}',redu_5 ='{5}',avg_5='{6}',h_table = '{7}',redu_init = '{8}'\
-                ".format(trade_code, date, ids, stock_name, redu_grade, redu_5, float(avg_5), h_tab,redu_init)
-            print('sql:', sql)
-            cursor.execute(sql)
-            db.commit()
-            print('存储完成')
-            logging.info('存储完成:id:{},name:{}'.format(ids, stock_name))
-        except Exception as err:
-            db.rollback()
-            print('存储失败:', err)
-            logging.error('存储失败:id:{},name:{}\n{}'.format(ids, stock_name, err))
+        sql = "insert into com_redu(trade_code,trade_date,stock_id,stock_name,redu,redu_5,avg_5,h_table,redu_init) \
+            values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}') " \
+              "ON DUPLICATE KEY UPDATE trade_code='{0}',trade_date='{1}',stock_id='{2}',stock_name='{3}'," \
+              "redu ='{4}',redu_5 ='{5}',avg_5='{6}',h_table = '{7}',redu_init = '{8}'\
+            ".format(trade_code, date, ids, stock_name, redu_grade, redu_5, float(avg_5), h_tab, redu_init)
+        print('sql:', sql)
+        cursor.execute(sql)
+    try:
+        db.commit()
+        print('存储完成')
+        logging.info('存储完成:id:{},name:{}'.format(ids, stock_name))
+    except Exception as err:
+        db.rollback()
+        print('存储失败:', err)
+        logging.error('存储失败:id:{},name:{}\n{}'.format(ids, stock_name, err))
     cursor.close()
 def run(date):
     p = Pool(8)
