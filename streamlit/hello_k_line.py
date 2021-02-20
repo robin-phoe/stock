@@ -284,7 +284,7 @@ if __name__ == '__main__':
     grade_start = st.text_input('分数起 / 股票编码', value='1000', key=None)
     grade_end = st.text_input('分数止', value='2000', key=None)
     start_date = st.text_input('开始时间', value='2019-01-01', key=None)
-    end_date = st.text_input('结束时间', value='2021-02-01', key=None)
+    end_date = st.text_input('结束时间', value='2021-03-01', key=None)
     # if grade_start != 'None' and grade_end != None:
     #     grade_start = float(grade_start)
     #     grade_end = float(grade_end)

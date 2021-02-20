@@ -185,7 +185,7 @@ def run_h(start_date,end_date):
     p.join()
     print('All subprocesses done.')
 if __name__ == '__main__':
-    date =None #'2021-01-20'
+    date ='2021-02-10' #'2021-01-20'
     run(date)
 
     # h_tab = '1'

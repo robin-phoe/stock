@@ -62,49 +62,51 @@ def get_data(table,stock_id,cursor,db):
         turnover_rate=float(data_list[5])/float(res_capital[0][1])*100
         #print('turnover_rate:',turnover_rate)
         #print('all:',trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],turnover_rate)
-        val.append((trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],turnover_rate,trade_code))
+        # val.append((trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],turnover_rate,trade_code))
         #val=((trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],str(turnover_rate)),)
-        '''
-        try:
-            sql="insert into stock_history_trade{13}(trade_code,stock_id,stock_name,trade_date,open_price,close_price,high_price,low_price,trade_amount,trade_money,circulation,capital_stock,turnover_rate) \
-                values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}')\
-                ".format(trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],turnover_rate,table)
-            cursor.execute(sql)
-            db.commit()
-            print('存储完成')
-            logging.info('存储完成:id:{},name:{}'.format(datas[0][0],datas[0][1]))
-        except Exception as err:
-            db.rollback()
-            print('存储失败:',err)
-            logging.error('存储失败:id:{},name:{}\n{}\n{}'.format(datas[0][0],datas[0][1],data_list,err))
-        '''
-        #print('val:',val)
+        sql="insert into stock_history_trade{13}(trade_code,stock_id,stock_name,trade_date,open_price,close_price," \
+            "high_price,low_price,trade_amount,trade_money,circulation,capital_stock,turnover_rate) " \
+            "values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}') " \
+            "ON DUPLICATE KEY UPDATE trade_code = '{0}',stock_id = '{1}',stock_name = '{2}',trade_date = '{3}'," \
+            "open_price = '{4}',close_price = '{5}',high_price = '{6}',low_price = '{7}',trade_amount = '{8}',trade_money = '{9}'," \
+            "circulation = '{10}',capital_stock = '{11}',turnover_rate = '{12}'" \
+            "".format(trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],turnover_rate,table)
+        cursor.execute(sql)
     try:
-    #if 1:
-        #取新值
-        sql="replace into stock_history_trade{}(trade_code,stock_id,stock_name,trade_date,open_price,close_price,high_price,low_price,trade_amount,trade_money,circulation,capital_stock,turnover_rate) \
-            values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)".format(table)
-        '''% \
-            (trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],str(turnover_rate))
-        '''
-        '''
-        sql="insert into stock_history_trade{13}(trade_code,stock_id,stock_name,trade_date,open_price,close_price,high_price,low_price,trade_amount,trade_money,circulation,capital_stock,turnover_rate) \
-                values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}')"
-        '''
-        #更新
-        sql = "update stock_history_trade{} set trade_code=%s,stock_id=%s,stock_name=%s,trade_date=%s,open_price=%s,close_price=%s," \
-              "high_price=%s,low_price=%s,trade_amount=%s,trade_money=%s,circulation=%s,capital_stock=%s,turnover_rate=%s where trade_code=%s ".format(table)
-        #print('tuple(val):',val)
-        #print('tuple(sql):',sql)
-        cursor.executemany(sql,val)
         db.commit()
         print('存储完成')
         logging.info('存储完成:id:{},name:{}'.format(datas[0][0],datas[0][1]))
     except Exception as err:
-    #else:
         db.rollback()
         print('存储失败:',err)
         logging.error('存储失败:id:{},name:{}\n{}\n{}'.format(datas[0][0],datas[0][1],data_list,err))
+        #print('val:',val)
+    # try:
+    # #if 1:
+    #     #取新值
+    #     sql="replace into stock_history_trade{}(trade_code,stock_id,stock_name,trade_date,open_price,close_price,high_price,low_price,trade_amount,trade_money,circulation,capital_stock,turnover_rate) \
+    #         values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)".format(table)
+    #     '''% \
+    #         (trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],str(turnover_rate))
+    #     '''
+    #     '''
+    #     sql="insert into stock_history_trade{13}(trade_code,stock_id,stock_name,trade_date,open_price,close_price,high_price,low_price,trade_amount,trade_money,circulation,capital_stock,turnover_rate) \
+    #             values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}')"
+    #     '''
+    #     #更新
+    #     sql = "update stock_history_trade{} set trade_code=%s,stock_id=%s,stock_name=%s,trade_date=%s,open_price=%s,close_price=%s," \
+    #           "high_price=%s,low_price=%s,trade_amount=%s,trade_money=%s,circulation=%s,capital_stock=%s,turnover_rate=%s where trade_code=%s ".format(table)
+    #     #print('tuple(val):',val)
+    #     #print('tuple(sql):',sql)
+    #     cursor.executemany(sql,val)
+    #     db.commit()
+    #     print('存储完成')
+    #     logging.info('存储完成:id:{},name:{}'.format(datas[0][0],datas[0][1]))
+    # except Exception as err:
+    # #else:
+    #     db.rollback()
+    #     print('存储失败:',err)
+    #     logging.error('存储失败:id:{},name:{}\n{}\n{}'.format(datas[0][0],datas[0][1],data_list,err))
 
 def make_one_table(table):
     db = pymysql.connect("localhost","root","Zzl08382020","stockdb" )

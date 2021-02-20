@@ -33,15 +33,17 @@ def make_data(df,db,h_table):
     for i in range(1,len(df)):
         increase = (df.loc[i,'close_price'] - df.loc[i-1,'close_price'])/df.loc[i-1,'close_price']
         print('increase:',increase,'trade_code:',df.loc[i,'trade_code'])
-        try:
-            sql = "update stock_history_trade{0} set increase = '{1}' where trade_code = '{2}'".format(h_table,increase,df.loc[i,'trade_code'])
-            print('sql:',sql)
-            cursor.execute(sql)  # 执行SQL语句
-            db.commit()
-            print('存储成功。')
-        except Exception as err:
-            db.rollback()
-            print('存储失败:', err)
+        sql = "update stock_history_trade{0} set increase = '{1}' where trade_code = '{2}'".format(h_table, increase,
+                                                                                                   df.loc[
+                                                                                                       i, 'trade_code'])
+        # print('sql:', sql)
+        cursor.execute(sql)  # 执行SQL语句
+    try:
+        db.commit()
+        print('存储成功。')
+    except Exception as err:
+        db.rollback()
+        print('存储失败:', err)
     cursor.close()
 def main(h_table):
     db = pymysql.connect("localhost", "root", "Zzl08382020", "stockdb")
