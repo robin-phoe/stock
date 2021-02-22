@@ -70,7 +70,7 @@ def get_data(table,stock_id,cursor,db):
             "ON DUPLICATE KEY UPDATE trade_code = '{0}',stock_id = '{1}',stock_name = '{2}',trade_date = '{3}'," \
             "open_price = '{4}',close_price = '{5}',high_price = '{6}',low_price = '{7}',trade_amount = '{8}',trade_money = '{9}'," \
             "circulation = '{10}',capital_stock = '{11}',turnover_rate = '{12}'" \
-            "".format(trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],turnover_rate,table)
+            "".format(trade_code,datas[0][0],datas[0][1],data_list[0],data_list[1],data_list[2],data_list[3],data_list[4],data_list[5],data_list[6],res_capital[0][1],res_capital[0][0],turnover_rate*100,table)
         cursor.execute(sql)
     try:
         db.commit()
