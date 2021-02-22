@@ -63,6 +63,8 @@ def select_comput_res(db,date,option,grade_start = 0,grade_end = 0,stock_id = No
     sql5 = "select C.zhuang_grade,C.stock_id,C.stock_name,I.h_table,C.dibu_date,I.bk_name from compute_zhuang_test C " \
            "left join stock_informations I " \
            "on C.stock_id = I.stock_id order by C.stock_id"
+    sql6 = "select redu,stock_id,stock_name,h_table from com_redu where redu >='{1}' and redu <='{2}' " \
+           "and trade_date = '{0}'".format(date,grade_start,grade_end)
     if option == 'fantan_grade':
         sql = sql2
     elif option == 'zhuang_grade':
@@ -73,6 +75,8 @@ def select_comput_res(db,date,option,grade_start = 0,grade_end = 0,stock_id = No
         sql = sql4
     elif option == 'zidingyi':
         sql = sql5
+    elif option == 'remen_grade_only':
+        sql = sql6
     cursor.execute(sql)
     info_list = cursor.fetchall()
     print('info_list:',info_list)
@@ -290,7 +294,7 @@ if __name__ == '__main__':
     #     grade_end = float(grade_end)
     #临时变量
     grade = 0
-    options = ['庄线','个股','反弹','热门','板块0','板块3','板块7','板块14','板块25','自定义']
+    options = ['庄线','个股','反弹','热门','热门_5','板块0','板块3','板块7','板块14','板块25','自定义']
     opt_res = st.selectbox( label='选择',options = options)
     # print('opt_res:',opt_res)
     run1 = st.button(u'执行')
@@ -331,11 +335,17 @@ if __name__ == '__main__':
         # date = '2020-08-28'
         len_day = 25
         draw_main_bk(db,date,start_date,end_date,len_day)
-    elif run1 and opt_res == '热门':
+    elif run1 and opt_res == '热门_5':
         #date = '2020-08-28'
         # if grade == 'None':
         #     grade = 7000
         info_list = select_comput_res(db,date,option = 'remen_grade',grade_start = float(grade_start),grade_end =  float(grade_end))
+        draw_main(db, info_list,date,start_date,end_date)
+    elif run1 and opt_res == '热门':
+        #date = '2020-08-28'
+        # if grade == 'None':
+        #     grade = 7000
+        info_list = select_comput_res(db,date,option = 'remen_grade_only',grade_start = float(grade_start),grade_end =  float(grade_end))
         draw_main(db, info_list,date,start_date,end_date)
     elif run1 and opt_res == '个股':
         #date = '2020-08-28'
