@@ -77,6 +77,7 @@ def com_redu2(db,ids,h_tab,date,delta = 30):
     cursor.close()
     print('zhangting_count:',zhangting_count)
     return zhangting_count
+#判断当日下穿5日均线是10日内极大值之后首次下穿
 def com_redu_init(redu,df):
     if redu<10000:
         return 0
@@ -131,10 +132,10 @@ def main(h_tab,date):
             redu_grade += redu_dict[ids]
         if redu_grade == 0:
             continue
-        if df.loc[len(df) - 3, 'avg_5'] > df.loc[len(df) - 3, 'close_price'] and df.loc[len(df) - 2, 'avg_5'] > df.loc[len(df) - 2, 'close_price'] and df.loc[len(df) - 1, 'avg_5'] > df.loc[len(df) - 1, 'close_price']:
-            redu_grade = redu_grade /10000
         redu_5 = 0
-        if redu_grade >=10000 and df.loc[len(df) - 1, 'avg_5'] >= df.loc[len(df) - 1,'close_price']:
+        if df.loc[len(df) - 3, 'avg_5'] > df.loc[len(df) - 3, 'close_price'] and df.loc[len(df) - 2, 'avg_5'] > df.loc[len(df) - 2, 'close_price'] and df.loc[len(df) - 1, 'avg_5'] > df.loc[len(df) - 1, 'close_price']:
+            redu_5 = redu_grade /10000
+        if redu_5 == 0 and df.loc[len(df) - 1, 'avg_5'] >= df.loc[len(df) - 1,'close_price']:
             if find_max(df):#return bool
                 redu_5 = redu_grade
         print('redu_grade:',redu_grade,redu_5)
