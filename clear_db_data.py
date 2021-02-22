@@ -31,7 +31,7 @@ def get_df_from_db(sql, db):
 def make_data(df,db,h_table):
     cursor = db.cursor()
     for i in range(1,len(df)):
-        increase = (df.loc[i,'close_price'] - df.loc[i-1,'close_price'])/df.loc[i-1,'close_price']
+        increase = (df.loc[i,'close_price'] - df.loc[i-1,'close_price'])/df.loc[i-1,'close_price'] * 100
         print('increase:',increase,'trade_code:',df.loc[i,'trade_code'])
         sql = "update stock_history_trade{0} set increase = '{1}' where trade_code = '{2}'".format(h_table, increase,
                                                                                                    df.loc[
