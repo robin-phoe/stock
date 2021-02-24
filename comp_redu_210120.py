@@ -60,16 +60,20 @@ def com_redu1(db,date,delta = 30):
 #计算涨停热度
 def com_redu2(db,ids,h_tab,date,delta = 30):
     cursor = db.cursor()
-    end_date = datetime.datetime.strptime(date, "%Y-%m-%d")
-    start_date = (end_date - datetime.timedelta(days=delta)).strftime("%Y-%m-%d")
+    # end_date = datetime.datetime.strptime(date, "%Y-%m-%d")
+    # start_date = (end_date - datetime.timedelta(days=delta)).strftime("%Y-%m-%d")
     # sql = "select sum(30+jmrate)+count(jmrate)*1000 from longhu_info where stock_code = '{0}' and " \
     #       "trade_date >= '{1}' and trade_date <= '{2}'".format(s_code,start_date,date)
-    sql = "SELECT count(increase)  FROM stock_history_trade{0} " \
-          "where trade_date >= '{1}' and trade_date <= '{2}' " \
-          "and  stock_id  = '{3}' and increase >= 9.75".format(h_tab, start_date, date,ids)
-    # print('sql:',sql)
+    # sql = "SELECT count(increase)  FROM stock_history_trade{0} " \
+    #       "where trade_date >= '{1}' and trade_date <= '{2}' " \
+    #       "and  stock_id  = '{3}' and increase >= 9.75".format(h_tab, start_date, date,ids)
+    sql = "SELECT count(increase)  FROM (select * from stock_history_trade{0} " \
+          "where trade_date <= '{1}' and stock_id  = '{2}' order by trade_date DESC limit {3}) H " \
+          "where  increase >= 9.75 ".format(h_tab, date,ids,delta)
+    print('sql:',sql)
     cursor.execute(sql)  # 执行SQL语句
     zhangting_res = cursor.fetchall()
+    print('zhangting_res:',zhangting_res)
     if len(zhangting_res) !=0:
         zhangting_count = zhangting_res[0][0]*10000
     else:
@@ -115,12 +119,13 @@ def main(h_tab,date):
     stock_id_list = cursor.fetchall()
     date_time = datetime.datetime.strptime(date, '%Y-%m-%d')
     start_t = (date_time - datetime.timedelta(days=90)).strftime('%Y-%m-%d')
+    # stock_id_list = (('600316','洪都航空'),)
     for ids_tuple in stock_id_list:
         ids = ids_tuple[0]
         stock_name = ids_tuple[1]
         trade_code = re.sub('-', '', date[0:10]) + ids
-        redu_dict = com_redu1(db, date, delta=10)
-        redu_grade = com_redu2(db, ids, h_tab, date, delta=10)
+        redu_dict = com_redu1(db, date, delta=20)
+        redu_grade = com_redu2(db, ids, h_tab, date, delta=20)
         sql = "SELECT stock_id,trade_date,open_price,close_price,high_price,low_price,increase  FROM stock_history_trade{0} \
                 where trade_date >= '{1}' and trade_date <= '{2}' and  stock_id  = '{3}'".format(h_tab, start_t, date,
                                                                                                  ids)
@@ -133,6 +138,8 @@ def main(h_tab,date):
         if redu_grade == 0:
             continue
         redu_5 = 0
+        if df.loc[len(df) - 1, 'avg_5'] < df.loc[len(df) - 1,'close_price']:
+            continue
         if df.loc[len(df) - 3, 'avg_5'] > df.loc[len(df) - 3, 'close_price'] and df.loc[len(df) - 2, 'avg_5'] > df.loc[len(df) - 2, 'close_price'] and df.loc[len(df) - 1, 'avg_5'] > df.loc[len(df) - 1, 'close_price']:
             redu_5 = redu_grade /10000
         if redu_5 == 0 and df.loc[len(df) - 1, 'avg_5'] >= df.loc[len(df) - 1,'close_price']:
@@ -186,11 +193,11 @@ def run_h(start_date,end_date):
     p.join()
     print('All subprocesses done.')
 if __name__ == '__main__':
-    date ='2021-02-22'#None#'2021-02-01' #'2021-01-20'
+    date ='2021-02-24'#'2021-02-01' #'2021-01-20'
     run(date)
 
-    # h_tab = '1'
+    # h_tab = '2'
     # main(h_tab, date)
 
     # history_com(h_tab,start_date='2020-01-01', end_date='2021-01-19')
-    # run_h(start_date='2020-07-31', end_date='2021-01-19')
+    # run_h(start_date='2020-07-31', end_date='2021-02-22')
