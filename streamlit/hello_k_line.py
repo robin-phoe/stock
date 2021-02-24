@@ -47,9 +47,12 @@ def select_comput_res(db,date,option,grade_start = 0,grade_end = 0,stock_id = No
     #       "inner JOIN (select stock_code,(sum(30+jmrate)+count(jmrate)*10000) as redu_grade from longhu_info where  " \
     #       "trade_date >= '{0}' and trade_date <= '{1}' group by stock_code) C " \
     #       "ON I.stock_id = C.stock_code " .format(start_date,date) #旧版本查询热度
-    sql3 = "select redu_5,stock_id,stock_name,h_table from com_redu where redu_5 >='{1}' and redu_5 <='{2}' " \
-           "and trade_date = '{0}'".format(date,grade_start,grade_end)
-    sql4 = "select C.zhuang_grade,I.stock_id,I.stock_name,I.h_table from stock_informations I " \
+    sql3 = "select C.redu_5,C.stock_id,C.stock_name,C.h_table,I.bk_name from com_redu C " \
+           "LEFT JOIN stock_informations I " \
+           "ON I.stock_id = C.stock_id " \
+           "where C.redu_5 >='{1}' and C.redu_5 <='{2}' " \
+           "and C.trade_date = '{0}'".format(date,grade_start,grade_end)
+    sql4 = "select C.zhuang_grade,I.stock_id,I.stock_name,I.h_table,I.bk_name from stock_informations I " \
            "LEFT JOIN (select stock_id,zhuang_grade from com_zhuang ) C " \
            "ON I.stock_id = C.stock_id " \
            "where I.stock_id = '{0}'".format(stock_id)
@@ -59,12 +62,20 @@ def select_comput_res(db,date,option,grade_start = 0,grade_end = 0,stock_id = No
     #        "on V.stock_id = I.stock_id " \
     #        " where V.redu_5 >= 10000 and V.days = 4 "
 
-    #自定义量庄测试
-    sql5 = "select C.zhuang_grade,C.stock_id,C.stock_name,I.h_table,C.dibu_date,I.bk_name from compute_zhuang_test C " \
+    #自定义量庄测试，zsz庄线筛选算法
+    # sql5 = "select C.zhuang_grade,C.stock_id,C.stock_name,I.h_table,C.dibu_date,I.bk_name from compute_zhuang_test C " \
+    #        "left join stock_informations I " \
+    #        "on C.stock_id = I.stock_id order by C.stock_id"
+    #自定义展示全部大拉升K线图
+    sql5 = "select C.zhangting_count,C.stock_id,C.stock_name,I.h_table,C.trade_date,I.bk_name from tongji_dalasheng C " \
            "left join stock_informations I " \
-           "on C.stock_id = I.stock_id order by C.stock_id"
-    sql6 = "select redu,stock_id,stock_name,h_table from com_redu where redu >='{1}' and redu <='{2}' " \
-           "and trade_date = '{0}'".format(date,grade_start,grade_end)
+           "on C.stock_id = I.stock_id  where C.zhangting_count >= 5 " \
+           "order by C.zhangting_count DESC"
+    sql6 = "select C.redu,C.stock_id,C.stock_name,C.h_table,I.bk_name from com_redu C " \
+           "LEFT JOIN stock_informations I " \
+           "ON I.stock_id = C.stock_id " \
+           "where C.redu >='{1}' and C.redu <='{2}' " \
+           "and C.trade_date = '{0}'".format(date,grade_start,grade_end)
     if option == 'fantan_grade':
         sql = sql2
     elif option == 'zhuang_grade':
@@ -183,7 +194,7 @@ def new_draw_k_line(df,chart_title,zhuang_section=[],yidong =[]):
     # old_df.set_index(["dates"], inplace=True)
     # 对数据进行改名，mplfinance有要求
     df.rename(
-        columns={'trade_date': 'Date', 'open_price': 'Open', 'high_price': 'High', 'low_price': 'Low', 'close_price': 'Close', 'trade_amount': 'Volume'},
+        columns={'trade_date': 'Date', 'open_price': 'Open', 'high_price': 'High', 'low_price': 'Low', 'close_price': 'Close', 'turnover_rate': 'Volume'},
         inplace=True)
     # 将Date设置为索引，并转换为 datetime 格式
     df.set_index(["Date"], inplace=True)
@@ -222,8 +233,9 @@ def draw_main(db,info_list,date,start_date,end_date):
     delta_t = (zero_time - datetime.datetime.strptime(origin,'%Y-%m-%d')).days
     for id_tup in info_list:
         print('id_tup:',id_tup)
+        bk_name = id_tup[4]
         ids = id_tup[1]
-        chart_title = id_tup[1] + '_' + id_tup[2] + '_' + str(id_tup[0]) + '_' + date
+        chart_title = id_tup[1] + '_' + id_tup[2] + '_' + str(id_tup[0]) + '_' + date + '_' + bk_name
         h_tab = id_tup[3]
         # ids = '600018'
         # sql = "SELECT trade_date,open_price,close_price,high_price,low_price,turnover_rate as trade_amount  FROM stockdb.stock_history_trade{0} \
@@ -243,14 +255,14 @@ def draw_main_user_define(db,info_list):
         # trade_date_datetime = datetime.datetime.strptime(trade_date, '%Y-%m-%d')
         trade_date_datetime = trade_date
         start_date = (trade_date_datetime - datetime.timedelta(days=150)).strftime('%Y-%m-%d')
-        # end_date = (trade_date_datetime + datetime.timedelta(days=3)).strftime('%Y-%m-%d')
+        end_date = (trade_date_datetime + datetime.timedelta(days=150)).strftime('%Y-%m-%d')
         date_str = trade_date_datetime.strftime('%Y-%m-%d')
         # print('se_date:',start_date,end_date)
         chart_title = id_tup[1] + '_' + id_tup[2] + '_' + str(id_tup[0]) + '_' + date_str + '_' + bk_name
         h_tab = id_tup[3]
         # ids = '600018'
-        sql = "SELECT trade_date,open_price,close_price,high_price,low_price,trade_amount  FROM stockdb.stock_history_trade{0} \
-                where trade_date >= '{1}' and  stock_id = '{2}'".format(h_tab, start_date, ids)
+        sql = "SELECT trade_date,open_price,close_price,high_price,low_price,turnover_rate  FROM stockdb.stock_history_trade{0} \
+                where trade_date >= '{1}' and trade_date <= '{3}' and stock_id = '{2}'".format(h_tab, start_date, ids,end_date)
         df = get_df_from_db(sql, db)
         index_list = df.query("trade_date == '{}'".format(date_str))
         if len(index_list) == 0:
